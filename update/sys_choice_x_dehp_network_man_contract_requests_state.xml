@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_dehp_network_man_contract_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>0</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>62a457da1bbf2340a27f437ead4bcb3a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-26 20:34:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>0</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:54:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>df461f1e1bbf2340a27f437ead4bcb9d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-25 19:56:20</sys_updated_on>
+            <value>1001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PNC Leadership Review</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>1</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:55:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b376d35e1bbf2340a27f437ead4bcb44</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-03-08 17:55:37</sys_updated_on>
+            <value>1005</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>1</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6aa457da1bbf2340a27f437ead4bcb3c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-26 20:34:34</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting Approval</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>2</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cf969f1e1bbf2340a27f437ead4bcbe5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-25 19:56:20</sys_updated_on>
+            <value>1015</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contracting</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>3</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:55:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b9a6535e1bbf2340a27f437ead4bcba8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-25 19:56:20</sys_updated_on>
+            <value>1010</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Filing</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>4</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:55:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bba6535e1bbf2340a27f437ead4bcb90</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-25 19:56:20</sys_updated_on>
+            <value>1020</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>5</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aaa457da1bbf2340a27f437ead4bcb3e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-28 15:36:40</sys_updated_on>
+            <value>1025</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sequence>6</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eaa457da1bbf2340a27f437ead4bcb40</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-28 15:36:59</sys_updated_on>
+            <value>1030</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_dehp_network_man_contract_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-25 19:47:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0f49a0cf1b807344e63e10e4bd4bcbd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_choice_x_dehp_network_man_contract_requests_state</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-25 19:47:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

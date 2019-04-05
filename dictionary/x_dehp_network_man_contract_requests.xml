@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="3" type="collection">
+        <element label="Additional restrictions" max_length="1000" name="additional_restrictions" type="string"/>
+        <element label="Addition or Deletion to practice restrictions" max_length="40" name="addition_or_deletion_to_practice_restrictions" type="boolean"/>
+        <element label="Amendment Other T/F" max_length="40" name="admendment_other" type="boolean"/>
+        <element label="All additional Documents complete?" max_length="40" name="all_additional_documents_complete" type="boolean"/>
+        <element label="Amendment Other Text" max_length="1000" name="amendment_other_text" type="string"/>
+        <element choice="1" label="Business Structure" max_length="40" name="business_structure" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="For-profit corporation" value="For-profit corporation"/>
+                <element inactive_on_update="false" label="Government Agency" value="Government Agency"/>
+                <element inactive_on_update="false" label="Incorporated (Inc)" value="Incorporated (Inc)"/>
+                <element inactive_on_update="false" label="Joint Venture" value="Joint Venture"/>
+                <element inactive_on_update="false" label="Limited Liability Company (LLC)" value="Limited Liability Company (LLC)"/>
+                <element inactive_on_update="false" label="Limited Liability Partnership (LLP)" value="Limited Liability Partnership (LLP)"/>
+                <element inactive_on_update="false" label="Limited Partnership (LP)" value="Limited Partnership (LP)"/>
+                <element inactive_on_update="false" label="Not-for-profit corporation" value="Not-for-profit corporation"/>
+                <element inactive_on_update="false" label="Service Corporation (SC)" value="Service Corporation (SC)"/>
+                <element inactive_on_update="false" label="Sole Proprietorship" value="Sole Proprietorship"/>
+                <element inactive_on_update="false" label="Other" sequence="100000" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Business Structure Other Text" max_length="200" name="business_structure_other" type="string"/>
+        <element label="Change in Legal Name" max_length="40" name="change_in_legal_name" type="boolean"/>
+        <element choice="1" label="Change in Legal Name choice" max_length="40" name="change_in_legal_name_choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Legal Name" value="New Legal Name"/>
+                <element inactive_on_update="false" label="New W-9 with updated Legal Name" value="New W-9 with updated Legal Name"/>
+            </choice>
+        </element>
+        <element label="Change in Notice Address listed in agreement" max_length="40" name="change_in_notice_address_listed_in_agreement" type="boolean"/>
+        <element label="CMS Essential Community Provider (ECP)" max_length="40" name="cms_essential_community_provider_ecp" type="boolean"/>
+        <element label="Codes restricted to" max_length="1000" name="codes_restricted_to" type="string"/>
+        <element label="Contracting Entity Name" max_length="200" name="contracting_entity_name" type="string"/>
+        <element label="Contracting Entity Name Correction" max_length="200" name="contracting_entity_name_correction" type="string"/>
+        <element choice="1" label="Contracting Entity Name matches W-9" max_length="40" name="contracting_entity_name_matches_w_9" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element label="Contract Entity NPI #" max_length="200" name="contract_entity_npi" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Credentialing Required" max_length="40" name="credentialing_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes – effective date will be after credentialing is approved and completed" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No – effective date is the date the agreement is signed or otherwise determined by Contracting" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Doing Business As" max_length="200" name="doing_business_as" type="string"/>
+        <element label="Effective Date" max_length="40" name="effective_date" type="glide_date"/>
+        <element label="Filed on OpenSource" max_length="40" name="filed_on_opensource" type="boolean"/>
+        <element choice="1" label="Is Effective Date Pre-determined?" max_length="40" name="is_effective_date_pre_determined" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Joint Venture Parties" max_length="2000" name="joint_venture_parties" type="string"/>
+        <element label="List addition/deletion" max_length="1000" name="list_addition_deletion" type="string"/>
+        <element label="List changes to be made to reimbursement" max_length="1000" name="list_changes_to_reimbursement" type="string"/>
+        <element label="Locations restricted to" max_length="4000" name="locations_restricted_to" type="string"/>
+        <element label="Medicare Advantage product addition" max_length="40" name="medicare_advantage_product_addition" type="boolean"/>
+        <element choice="1" label="Medicare Agreement Type" max_length="40" name="medicare_agreement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medicare Gold Organizational (includes Hospital)" value="Medicare Gold Organizational (includes Hospital)"/>
+                <element inactive_on_update="false" label="Medicare Gold Practitioner (includes Chiropractic)" value="Medicare Gold Practitioner (includes Chiropractic)"/>
+            </choice>
+        </element>
+        <element label="Medicare Certification #" max_length="200" name="medicare_certification" type="string"/>
+        <element choice="1" label="Medicare Network Type" max_length="40" name="medicare_network_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dean Network" sequence="10" value="Dean Network"/>
+                <element inactive_on_update="false" label="Prevea360 Network" sequence="20" value="Prevea360 Network"/>
+                <element inactive_on_update="false" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Medicare Status" max_length="200" name="medicare_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Plan (P)" sequence="10" value="Plan (P)"/>
+                <element inactive_on_update="false" label="Non-Plan with Agreement (NA)" sequence="20" value="Non-Plan with Agreement (NA)"/>
+                <element inactive_on_update="false" label="Adjunctive (A)" sequence="30" value="Adjunctive (A)"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated value&#10;&#10;})(current);" choice="1" choice_field="network" choice_table="x_dehp_network_man_network_products" label="Network" max_length="40" name="network" type="choice" use_dependent_field="true" virtual="true">
+            <choice>
+                <element inactive_on_update="false" label="Dean Network" sequence="0" value="Dean Network"/>
+                <element inactive_on_update="false" label="Prevea360 Network" sequence="1" value="Prevea360 Network"/>
+            </choice>
+        </element>
+        <element label="Network adequacy gap" max_length="40" name="network_adequacy_gap" type="boolean"/>
+        <element label="New Legal Name" max_length="1000" name="new_legal_name" type="string"/>
+        <element label="New Notice Address:" max_length="1000" name="new_notice_address" type="string"/>
+        <element choice="1" label="New or Amendment" max_length="40" name="new_or_amendment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Agreement" sequence="10" value="New Agreement"/>
+                <element inactive_on_update="false" label="Changing current Agreement" sequence="20" value="Changing current Agreement"/>
+            </choice>
+        </element>
+        <element label="New TIN and/or NPI" max_length="200" name="new_tin_npi" type="string"/>
+        <element choice="1" label="Non-Medicare Agreement Type" max_length="40" name="non_medicare_agreement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Acupuncture" value="Acupuncture"/>
+                <element inactive_on_update="false" label="Chiropractic" value="Chiropractic"/>
+                <element inactive_on_update="false" label="Hospital" value="Hospital"/>
+                <element inactive_on_update="false" label="Organizational (e.g. HH, DME, SNF, Lab – excludes hospital)" value="Organizational (e.g. HH, DME, SNF, Lab – excludes hospital)"/>
+                <element inactive_on_update="false" label="PHO (hospital/clinic combined)" value="PHO (hospital/clinic combined)"/>
+                <element inactive_on_update="false" label="Practitioner" value="Practitioner"/>
+            </choice>
+        </element>
+        <element choice="1" label="Non-Medicare Network" max_length="40" name="non_medicare_network" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dean Network" sequence="10" value="Dean Network"/>
+                <element inactive_on_update="false" label="Prevea360 Network" sequence="20" value="Prevea360 Network"/>
+                <element inactive_on_update="false" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Non-Medicare Status" max_length="200" name="non_medicare_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Plan (P)" sequence="10" value="Plan (P)"/>
+                <element inactive_on_update="false" label="Non-Plan with Agreement (NA)" sequence="20" value="Non-Plan with Agreement (NA)"/>
+                <element inactive_on_update="false" label="Adjunctive (A)" sequence="30" value="Adjunctive (A)"/>
+            </choice>
+        </element>
+        <element choice="1" label="Origin of Request" max_length="40" name="origin_of_request" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Provider initiated the request" sequence="10" value="Provider initiated the request"/>
+                <element inactive_on_update="false" label="Network Management/Leadership initiated the request" sequence="20" value="Network Management/Leadership initiated the request"/>
+            </choice>
+        </element>
+        <element label="Other Product addition T/F" max_length="40" name="other_product_addition" type="boolean"/>
+        <element label="Other Product addition Text" max_length="1000" name="other_product_addition_desc" type="string"/>
+        <element label="Outside Wisconsin?" max_length="40" name="outside_wisconsin" type="boolean"/>
+        <element label="Practitioners Restricted to" max_length="2000" name="practitioners_restricted_to" type="string"/>
+        <element label="Pre-determined Date is retroactive?" max_length="40" name="pre_determined_date_retroactive" type="boolean"/>
+        <element label="Primary Contact Email" max_length="200" name="primary_contact_email" type="string"/>
+        <element label="Primary Contact Fax" max_length="200" name="primary_contact_fax" type="string"/>
+        <element label="Primary Contact Name" max_length="200" name="primary_contact_name" type="string"/>
+        <element label="Primary Contact Number" max_length="200" name="primary_contact_number" type="string"/>
+        <element label="Primary Contact Title" max_length="200" name="primary_contact_title" type="string"/>
+        <element label="Primary Notice Address:" max_length="200" name="primary_notice_address" type="string"/>
+        <element label="Primary Notice City/State/Zip" max_length="200" name="primary_notice_city_state_zip" type="string"/>
+        <element label="Primary Notice Name" max_length="200" name="primary_notice_name" type="string"/>
+        <element label="Primary Notice Title " max_length="200" name="primary_notice_title" type="string"/>
+        <element label="Primary Signatory Email" max_length="200" name="primary_signatory_email" type="string"/>
+        <element label="Primary Signatory Fax" max_length="200" name="primary_signatory_fax" type="string"/>
+        <element label="Primary Signatory Name" max_length="200" name="primary_signatory_name" type="string"/>
+        <element label="Primary Signatory Title" max_length="200" name="primary_signatory_title" type="string"/>
+        <element dependent="network" dependent_on_field="network" label="Products" max_length="4000" name="products" reference="x_dehp_network_man_network_products" reference_qual="networkSAMEASnetwork^EQ" reference_qual_condition="networkSAMEASnetwork^EQ" type="glide_list" use_dependent_field="true"/>
+        <element choice="1" label="Provider Submits Claims on" max_length="40" name="provider_submits_claims" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CMS1500" sequence="10" value="CMS1500"/>
+                <element inactive_on_update="false" label="UB04" sequence="20" value="UB04"/>
+                <element inactive_on_update="false" label="Both CMS1500 and UB04" sequence="30" value="Both CMS1500 and UB04"/>
+            </choice>
+        </element>
+        <element label="Reason Other T/F" max_length="40" name="reason_other" type="boolean"/>
+        <element label="Reason Other Text" max_length="1000" name="reason_other_text" type="string"/>
+        <element choice="1" label="Reimbursement require addition/change/removal?" max_length="40" name="reimbursement_modification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Secondary Notice Address" max_length="200" name="secondary_notice_address" type="string"/>
+        <element label="Secondary Notice City/State/Zip" max_length="200" name="secondary_notice_city_state_zip" type="string"/>
+        <element label="Secondary Notice Name" max_length="200" name="secondary_notice_name" type="string"/>
+        <element label="Secondary Notice Title" max_length="200" name="secondary_notice_title" type="string"/>
+        <element label="Secondary Signatory Name" max_length="200" name="secondary_signatory_name" type="string"/>
+        <element label="Secondary Signatory Title" max_length="200" name="secondary_signatory_title" type="string"/>
+        <element label="Signatory Phone" max_length="200" name="signatory_phone" type="string"/>
+        <element label="Signatory same as Primary Contact?" max_length="40" name="signatory_same_as_primary_contact" type="boolean"/>
+        <element choice="1" label="Is this a Skilled Nursing Facility (SNF) agreement?" max_length="40" name="snf_agreement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Specialty/Services Restricted to" max_length="4000" name="specialty_services_restricted_to" type="string"/>
+        <element label="Tax ID (TIN)" max_length="200" name="tax_id" type="string"/>
+        <element choice="1" label="What kind of therapy services are offered?" max_length="40" name="therapy_services_offered" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No therapy services" sequence="10" value="No therapy services"/>
+                <element inactive_on_update="false" label="Resident-only therapy services" sequence="20" value="Resident-only therapy services"/>
+                <element inactive_on_update="false" label="Outpatient therapy services" sequence="30" value="Outpatient therapy services"/>
+            </choice>
+        </element>
+        <element choice="1" label="Amendment require change to TIN or NPI?" max_length="40" name="tin_npi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="WI Medicaid Certification #" max_length="200" name="wi_medicaid_certification" type="string"/>
+    </element>
+</database>

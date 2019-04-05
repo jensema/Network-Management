@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>reason_other</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-19 21:31:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0cf23c601bf32f00a27f437ead4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reason_other</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0cf23c601bf32f00a27f437ead4bcb0d</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-02-19 21:31:20</sys_updated_on>
+        <table>x_dehp_network_man_contract_requests</table>
+        <ui_policy display_value="Origin of Request = Network Management">6b7270601bf32f00a27f437ead4bcbc5</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

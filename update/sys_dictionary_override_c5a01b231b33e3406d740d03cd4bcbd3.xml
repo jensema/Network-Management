@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>7a3804641bbbaf80e63e10e4bd4bcb7f</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assignment_group</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_dehp_network_man_contract_requests</name>
+        <read_only>true</read_only>
+        <read_only_override>true</read_only_override>
+        <reference_qual>active=true^typeLIKEfc0d08e41b732f00a27f437ead4bcb44</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-03-01 16:42:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c5a01b231b33e3406d740d03cd4bcbd3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_dictionary_override_c5a01b231b33e3406d740d03cd4bcbd3</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-03-04 16:17:21</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

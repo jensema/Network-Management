@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>active</element>
+        <name>x_dehp_network_man_facility_provider</name>
+        <style>background-color:DarkGrey</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-08 16:45:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0e0843bc1b63a3006d740d03cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dehp_network_man_facility_provider</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_ui_style_0e0843bc1b63a3006d740d03cd4bcb51</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-02-08 16:45:19</sys_updated_on>
+        <u_document_id/>
+        <u_reference_table/>
+        <value>0</value>
+    </sys_ui_style>
+</record_update>

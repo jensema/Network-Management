@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="medicare_certification" label="Medicare Certification #" language="en" table="x_dehp_network_man_contract_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>medicare_certification</element>
+            <help/>
+            <hint/>
+            <label>Medicare Certification #</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <plural>Medicare Certification #s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-18 17:42:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3d05f6841b37eb00a27f437ead4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Medicare Certification #</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_documentation_x_dehp_network_man_contract_requests_medicare_certification_en</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-18 17:42:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

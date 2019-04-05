@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_dehp_network_man_contract_requests">tin_npi=yes^EQ<item endquery="false" field="tin_npi" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Amendment require change to TIN or NPI? = yes</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-19 21:50:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>806778641bf32f00a27f437ead4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amendment require change to TIN or NPI? = yes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_ui_policy_806778641bf32f00a27f437ead4bcb99</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-02-19 21:50:30</sys_updated_on>
+        <table>x_dehp_network_man_contract_requests</table>
+        <u_invisible/>
+        <u_mandatory/>
+        <u_read_only/>
+        <u_visible/>
+        <view/>
+    </sys_ui_policy>
+</record_update>

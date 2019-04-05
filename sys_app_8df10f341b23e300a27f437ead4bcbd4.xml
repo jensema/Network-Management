@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_category>none</license_category>
@@ -11,7 +11,7 @@
         <name>Network Management</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
-        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <runtime_access_tracking/>
         <scope>x_dehp_network_man</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
@@ -21,11 +21,11 @@
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-02-08 16:18:45</sys_created_on>
+        <sys_created_on>2019-03-12 01:26:54</sys_created_on>
         <sys_id>8df10f341b23e300a27f437ead4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-02-08 16:18:45</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-03-13 06:00:50</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>

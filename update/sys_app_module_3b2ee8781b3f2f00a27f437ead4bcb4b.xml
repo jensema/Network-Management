@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Network Management">455223c21b2767006d740d03cd4bcb2c</application>
+        <assessment/>
+        <content_page/>
+        <device_type>any</device_type>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Network and Products</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_dehp_network_man_network_products</name>
+        <order>1250</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_dehp_network_man.admin</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-20 15:48:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3b2ee8781b3f2f00a27f437ead4bcb4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Network and Products</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_app_module_3b2ee8781b3f2f00a27f437ead4bcb4b</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-03-05 20:59:01</sys_updated_on>
+        <timeline_page/>
+        <title>Network and Products</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

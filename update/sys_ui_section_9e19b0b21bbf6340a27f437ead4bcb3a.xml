@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Filing" section_id="9e19b0b21bbf6340a27f437ead4bcb3a" sys_domain="global" table="x_dehp_network_man_contract_requests" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>filed_on_opensource</element>
+            <position>0</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-26 21:45:07</sys_created_on>
+            <sys_id>9149fcb21bbf6340a27f437ead4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Filing" display_value="Filing" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">9e19b0b21bbf6340a27f437ead4bcb3a</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-26 21:45:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>all_additional_documents_complete</element>
+            <position>1</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-26 21:45:07</sys_created_on>
+            <sys_id>9949fcb21bbf6340a27f437ead4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Filing" display_value="Filing" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">9e19b0b21bbf6340a27f437ead4bcb3a</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-26 21:45:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Filing</caption>
+            <header>false</header>
+            <name>x_dehp_network_man_contract_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-26 21:44:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9e19b0b21bbf6340a27f437ead4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Filing</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_ui_section_9e19b0b21bbf6340a27f437ead4bcb3a</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-26 21:44:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

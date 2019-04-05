@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:175983f81b23e300a27f437ead4bcbbd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-08 17:31:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1c9297341b63e300a27f437ead4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1c9297341b63e300a27f437ead4bcb71</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-02-08 17:31:19</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Read Only">5262d3341b63e300a27f437ead4bcb42</ui_policy>
+        <variable>description</variable>
+        <variable_set display_value="NetMan Reimbursement variables">77a9cbf81b23e300a27f437ead4bcb3e</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

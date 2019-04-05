@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="40a723881bb7eb00a27f437ead4bcb86" sys_domain="global" table="x_dehp_network_man_contract_requests" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-18 21:23:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4ca723881bb7eb00a27f437ead4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dehp_network_man_contract_requests" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">40a723881bb7eb00a27f437ead4bcb86</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-18 21:23:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-19 16:22:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d53c6f1c1bbfab006d740d03cd4bcbba</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dehp_network_man_contract_requests" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">40a723881bb7eb00a27f437ead4bcb86</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">d53c6f1c1bbfab006d740d03cd4bcb90</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-19 16:22:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-18 21:23:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>08a723881bb7eb00a27f437ead4bcb88</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dehp_network_man_contract_requests" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">40a723881bb7eb00a27f437ead4bcb86</sys_ui_form>
+            <sys_ui_section caption="New Agreement Information" display_value="New Agreement Information" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">84a723881bb7eb00a27f437ead4bcb87</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-19 16:14:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-18 21:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>93b72f881bb7eb00a27f437ead4bcb44</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dehp_network_man_contract_requests" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">40a723881bb7eb00a27f437ead4bcb86</sys_ui_form>
+            <sys_ui_section caption="Assignment / Amendment Information" display_value="Assignment / Amendment Information" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">d3b72f881bb7eb00a27f437ead4bcb42</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-19 16:14:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-26 21:44:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5e19b0b21bbf6340a27f437ead4bcb3d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dehp_network_man_contract_requests" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">40a723881bb7eb00a27f437ead4bcb86</sys_ui_form>
+            <sys_ui_section caption="Filing" display_value="Filing" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">9e19b0b21bbf6340a27f437ead4bcb3a</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-26 21:45:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-18 22:04:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c0e03fc41b37ab006d740d03cd4bcb89</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dehp_network_man_contract_requests" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">40a723881bb7eb00a27f437ead4bcb86</sys_ui_form>
+            <sys_ui_section caption="Notes / Activies" display_value="Notes / Activies" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">c4e03fc41b37ab006d740d03cd4bcb85</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-26 21:45:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_dehp_network_man_contract_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-18 21:23:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>40a723881bb7eb00a27f437ead4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dehp_network_man_contract_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_40a723881bb7eb00a27f437ead4bcb86</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-18 21:23:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

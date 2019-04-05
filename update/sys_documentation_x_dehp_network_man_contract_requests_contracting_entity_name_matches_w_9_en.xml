@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="contracting_entity_name_matches_w_9" label="Contracting Entity Name matches W-9" language="en" table="x_dehp_network_man_contract_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>contracting_entity_name_matches_w_9</element>
+            <help/>
+            <hint/>
+            <label>Contracting Entity Name matches W-9</label>
+            <language>en</language>
+            <name>x_dehp_network_man_contract_requests</name>
+            <plural>Contracting Entity Name matches W-9s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-02-18 16:55:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ab3aa6881b73ab006d740d03cd4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Contracting Entity Name matches W-9</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_documentation_x_dehp_network_man_contract_requests_contracting_entity_name_matches_w_9_en</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-02-18 16:55:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

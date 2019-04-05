@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>request_approval</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition>current.state=='1010' </condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Request Approval</name>
+        <onclick>request_approval()</onclick>
+        <order>-300</order>
+        <script><![CDATA[function request_approval() {
+	if (checkMandatory() == false) return false;
+		else {
+		//g_form.setValue('state', 1015);
+		//g_form.setValue('approval','requested');
+		gsftSubmit(null, g_form.getFormElement(), 'request_approval');
+	}
+}
+function checkMandatory() {
+	function getFields() {
+		var arrFields = [];
+		for (var i = 0; i < g_form.elements.length; i++) {
+			arrFields.push(g_form.elements[i]['fieldName']);
+		}
+		return arrFields;
+	}
+	var currentFields = getFields();
+	var requiredFields = [];
+	for (var i = 0; i < currentFields.length; i++) {
+		if (g_form.isMandatory(currentFields[i]) && g_form.getValue(currentFields[i]) == "") {
+			requiredFields.push(g_form.getLabelOf(currentFields[i]));
+			g_form.flash(currentFields[i], "#FFFACD", 0);
+		}
+	}
+	if (requiredFields.length > 0) {
+		g_form.addErrorMessage(((requiredFields.length > 1) ? getMessage('fieldCheckApprovePlural') : getMessage('fieldCheckApproveSingle')) + requiredFields.join(', '));
+		return false;
+	}
+	return true;
+}
+
+(function() {
+	if (typeof window == 'undefined') {
+		current.state = 1015; //set the state to waiting Approval
+		//current.approval = 'requested'; //set approval state to requested
+		action.setRedirectURL(current);
+		current.update();
+	}
+})();
+//@ sourceURL=MyInlineScript.js
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-26 19:40:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f1cc547a1b3f6340a27f437ead4bcbad</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Request Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_ui_action_f1cc547a1b3f6340a27f437ead4bcbad</sys_update_name>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-03-01 18:16:36</sys_updated_on>
+        <table>x_dehp_network_man_contract_requests</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

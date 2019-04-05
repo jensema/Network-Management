@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Network Management Reimbursement - Fee Schedule Maintenance Request">f1056b461b2767006d740d03cd4bcb42</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-12 16:06:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9f852f861b2767006d740d03cd4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NetMan Reimbursement variables.Network Management Reimbursement - Fee Schedule Maintenance Request</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>io_set_item_9f852f861b2767006d740d03cd4bcb5b</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-02-12 16:06:41</sys_updated_on>
+        <variable_set display_value="NetMan Reimbursement variables">77a9cbf81b23e300a27f437ead4bcb3e</variable_set>
+    </io_set_item>
+</record_update>
