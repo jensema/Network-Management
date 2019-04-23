@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[answer = "";]]></calculation>
         <choice/>

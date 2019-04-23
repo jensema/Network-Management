@@ -48,6 +48,7 @@
         <u_mandatory/>
         <u_read_only/>
         <u_visible/>
+        <ui_type>0</ui_type>
         <variable_set display_value="NetMan Reimbursement variables">77a9cbf81b23e300a27f437ead4bcb3e</variable_set>
         <view/>
     </catalog_ui_policy>

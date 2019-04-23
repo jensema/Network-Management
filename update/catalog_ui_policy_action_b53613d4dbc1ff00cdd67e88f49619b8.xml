@@ -6,23 +6,23 @@
         <disabled>true</disabled>
         <field/>
         <mandatory>ignore</mandatory>
-        <order>200</order>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-02-08 17:31:24</sys_created_on>
+        <sys_created_on>2019-04-22 18:04:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>65925ff01b63e300a27f437ead4bcb34</sys_id>
+        <sys_id>b53613d4dbc1ff00cdd67e88f49619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>desired_due_date</sys_name>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_65925ff01b63e300a27f437ead4bcb34</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_b53613d4dbc1ff00cdd67e88f49619b8</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-02-08 17:31:24</sys_updated_on>
+        <sys_updated_on>2019-04-22 18:04:42</sys_updated_on>
         <table/>
-        <ui_policy display_value="Read Only">5262d3341b63e300a27f437ead4bcb42</ui_policy>
+        <ui_policy display_value="Due Date Read Only RITM">e026df94dbc1ff00cdd67e88f496192f</ui_policy>
         <variable>desired_due_date</variable>
         <variable_set display_value="NetMan Reimbursement variables">77a9cbf81b23e300a27f437ead4bcb3e</variable_set>
         <visible>ignore</visible>
