@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>-100</order>
+        <sc_cat_item display_value="Network Management Reimbursement - Fee Schedule Build Request">3433cbb41b23e300a27f437ead4bcb80</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-04-24 15:53:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>488bc185dbcd3340cdd67e88f4961993</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Requested For with Dept Title Phone .Network Management Reimbursement - Fee Schedule Build Request</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>io_set_item_488bc185dbcd3340cdd67e88f4961993</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-04-24 15:54:04</sys_updated_on>
+        <variable_set display_value="Requested For with Dept Title Phone ">06aa0a4e6f641100cf24cf30be3ee4cd</variable_set>
+    </io_set_item>
+</record_update>
