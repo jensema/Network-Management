@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>-100</order>
-        <sc_cat_item display_value="Network Management Reimbursement - Fee Schedule Build Request">3433cbb41b23e300a27f437ead4bcb80</sc_cat_item>
+        <sc_cat_item display_value="Net Man Reimbursement - Fee Schedule Build Request">3433cbb41b23e300a27f437ead4bcb80</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
         <sys_created_on>2019-04-24 15:53:53</sys_created_on>

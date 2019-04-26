@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="With COB Claims?">03eb6505db417340cdd67e88f4961963</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-04-24 18:16:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b81c2905db417340cdd67e88f49619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>question_choice_b81c2905db417340cdd67e88f49619a8</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-04-24 18:16:21</sys_updated_on>
+        <text>No</text>
+        <value>no</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b81c2905db417340cdd67e88f49619a8"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>b81c2905db417340cdd67e88f49619a8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-04-24 18:16:21</sys_created_on>
+        <sys_id>831ca505db417340cdd67e88f49619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-04-24 18:16:21</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>b81c2905db417340cdd67e88f49619a8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-04-24 18:16:21</sys_created_on>
+        <sys_id>4b1ca505db417340cdd67e88f49619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-04-24 18:16:21</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

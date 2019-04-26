@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Network Management Reimbursement - Miscellaneous Request">f7d4a7461b2767006d740d03cd4bcb22</sc_cat_item>
+        <sc_cat_item display_value="Net Man Reimbursement - Miscellaneous Request">f7d4a7461b2767006d740d03cd4bcb22</sc_cat_item>
         <sc_category display_value="Reimbursement">18a327061b2767006d740d03cd4bcbb5</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
