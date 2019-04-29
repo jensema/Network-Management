@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>600</order>
+        <sc_cat_item display_value="Net Man Reimbursement - Claim Request">9c35eb461b2767006d740d03cd4bcbb7</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-04-26 19:26:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc7fc479db01f340cdd67e88f49619dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Network and Products.Net Man Reimbursement - Claim Request</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>io_set_item_fc7fc479db01f340cdd67e88f49619dd</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-04-26 19:27:51</sys_updated_on>
+        <variable_set display_value="Network and Products">1eb8fdcddb417340cdd67e88f49619be</variable_set>
+    </io_set_item>
+</record_update>

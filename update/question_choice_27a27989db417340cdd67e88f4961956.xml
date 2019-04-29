@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="Plan Type:">4b0f6dc5db417340cdd67e88f49619e8</question>
+        <question/>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>

@@ -5,7 +5,9 @@
         <assessment/>
         <content_page/>
         <device_type>any</device_type>
-        <filter/>
+        <filter table="x_dehp_network_man_facility_provider">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -27,7 +29,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1027c7781b23e300a27f437ead4bcbbb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Facility/Providers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
@@ -36,7 +38,7 @@
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sys_app_module_1027c7781b23e300a27f437ead4bcbbb</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-03-05 20:58:43</sys_updated_on>
+        <sys_updated_on>2019-04-26 19:18:20</sys_updated_on>
         <timeline_page/>
         <title>Facility/Providers</title>
         <uncancelable>false</uncancelable>
