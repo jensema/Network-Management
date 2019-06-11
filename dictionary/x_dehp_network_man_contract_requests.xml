@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="11" type="collection">
         <element label="Additional restrictions" max_length="1000" name="additional_restrictions" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Addition or Deletion to practice restrictions" max_length="40" name="addition_or_deletion_to_practice_restrictions" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Amendment Other T/F" max_length="40" name="admendment_other" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="All additional Documents complete?" max_length="40" name="all_additional_documents_complete" type="boolean"/>
         <element label="Amendment Other Text" max_length="1000" name="amendment_other_text" type="string"/>
+        <element label="Assigned Contractor" max_length="32" name="assigned_contractor" reference="sys_user" reference_qual="active=true^departmentLIKEContracting^departmentNOT LIKEContracting Reimbursement^EQ" reference_qual_condition="active=true^departmentLIKEContracting^departmentNOT LIKEContracting Reimbursement^EQ" type="reference"/>
+        <element label="Assigned PNC" max_length="32" name="assigned_pnc" reference="sys_user" reference_qual="active=true^departmentLIKENetwork Administration^EQ" reference_qual_condition="active=true^departmentLIKENetwork Administration^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Business Structure" max_length="40" name="business_structure" type="choice">
             <choice>
                 <element inactive_on_update="false" label="For-profit corporation" value="For-profit corporation"/>
@@ -81,7 +83,7 @@
                 <element inactive_on_update="false" label="Adjunctive (A)" sequence="30" value="Adjunctive (A)"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated value&#10;&#10;})(current);" choice="1" choice_field="network" choice_table="x_dehp_network_man_network_products" label="Network" max_length="40" name="network" type="choice" use_dependent_field="true" virtual="true">
+        <element attributes="edge_encryption_enabled=true, no_copy" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated value&#10;&#10;})(current);" choice="1" choice_field="network" choice_table="x_dehp_network_man_network_products" label="Network" max_length="40" name="network" type="choice" use_dependent_field="true" virtual="true">
             <choice>
                 <element inactive_on_update="false" label="Dean Network" sequence="0" value="Dean Network"/>
                 <element inactive_on_update="false" label="Prevea360 Network" sequence="1" value="Prevea360 Network"/>

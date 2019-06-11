@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>populate Assigned PNC/Contractor</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+if (g_form.getValue('process_flow') == '1001'|| g_form.getValue('process_flow') == '1005'){
+	g_form.setValue('assigned_pnc', newValue);
+}
+	else {
+		g_form.setValue('assigned_contractor', newValue);
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 20:09:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d0f055a8db827b00cdd67e88f49619cf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>populate Assigned PNC/Contractor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_script_client_d0f055a8db827b00cdd67e88f49619cf</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 20:27:02</sys_updated_on>
+        <table>x_dehp_network_man_contract_requests</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dehp_network_man.CopyRecord</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CopyRecord</name>
+        <script><![CDATA[var CopyRecord = Class.create();
+CopyRecord.prototype = {
+	initialize: function() {
+	},
+	
+	type: 'CopyRecord'
+};
+
+CopyRecord.copy=function(tableName, sourceID) {
+	var target = new GlideRecord(tableName);
+	target.newRecord();
+	
+	var source = new GlideRecord(tableName);
+	source.get(sourceID);
+	
+	if (source.isValidRecord()){
+		
+		var fields = new GlideRecord('sys_dictionary');
+		fields.addEncodedQuery('elementISNOTEMPTY^attributesNOT LIKEno_copy^name='+tableName);
+		
+		fields.query();
+		
+		while (fields.next()){
+			var element = fields.element;
+			var sourceValue = source.getValue(element);
+			if (sourceValue != ""){
+			target.setValue(fields.element, source.getValue(fields.element));
+			var targetValue = target.getValue(element);
+			}
+		}
+		target.update();
+		return target;
+	}
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-10 18:05:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>542c2b80db46f3006655b2a2ba9619cc</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>CopyRecord</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_script_include_542c2b80db46f3006655b2a2ba9619cc</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 15:03:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"stages":{"fabde585db417340cdd67e88f496191c":{"duration":"","order":1100,"stageId":"fabde585db417340cdd67e88f496191c","name":"Completed","value":"complete"},"76bde585db417340cdd67e88f496191c":{"duration":"1 Day","order":100,"stageId":"76bde585db417340cdd67e88f496191c","name":"Waiting for Approval","value":"waiting_for_approval"},"f2bde585db417340cdd67e88f496191c":{"duration":"1 Day","order":120,"stageId":"f2bde585db417340cdd67e88f496191c","name":"Fulfillment","value":"fulfillment"}},"activities":{"fabde585db417340cdd67e88f4961923":"76bde585db417340cdd67e88f496191c","7abde585db417340cdd67e88f4961922":"fabde585db417340cdd67e88f496191c","f2bde585db417340cdd67e88f496191d":"f2bde585db417340cdd67e88f496191c"},"subflows":[],"ends":["7abde585db417340cdd67e88f4961922"]}</activity_stages>
+        <activity_stages>{"activities":{"5805c1ecdb427b00cdd67e88f49619d5":"d00541ecdb427b00cdd67e88f4961915","1405c1ecdb427b00cdd67e88f49619d0":"d40541ecdb427b00cdd67e88f4961915","9805c1ecdb427b00cdd67e88f49619cf":"d005c1ecdb427b00cdd67e88f49619ce"},"stages":{"d40541ecdb427b00cdd67e88f4961915":{"duration":"1 Day","order":120,"stageId":"d40541ecdb427b00cdd67e88f4961915","name":"Fulfillment","value":"fulfillment"},"d005c1ecdb427b00cdd67e88f49619ce":{"duration":"","order":1100,"stageId":"d005c1ecdb427b00cdd67e88f49619ce","name":"Completed","value":"complete"},"d00541ecdb427b00cdd67e88f4961915":{"duration":"1 Day","order":100,"stageId":"d00541ecdb427b00cdd67e88f4961915","name":"Waiting for Approval","value":"waiting_for_approval"}},"ends":["9805c1ecdb427b00cdd67e88f49619cf"],"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description/>
-        <expected_sequences>32bde585db417340cdd67e88f4961923,fabde585db417340cdd67e88f4961923,f2bde585db417340cdd67e88f496191d,7abde585db417340cdd67e88f4961922</expected_sequences>
+        <expected_sequences>9805c1ecdb427b00cdd67e88f49619ce,5805c1ecdb427b00cdd67e88f49619d5,1405c1ecdb427b00cdd67e88f49619d0,9805c1ecdb427b00cdd67e88f49619cf</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>32bde585db417340cdd67e88f4961923,fabde585db417340cdd67e88f4961923,f2bde585db417340cdd67e88f496191d,7abde585db417340cdd67e88f4961922</full_sequences>
+        <full_sequences>9805c1ecdb427b00cdd67e88f49619ce,5805c1ecdb427b00cdd67e88f49619d5,1405c1ecdb427b00cdd67e88f49619d0,9805c1ecdb427b00cdd67e88f49619cf</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>NetMan - Miscellaneous Reimbursement Request</name>
@@ -27,13 +27,13 @@
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">32bde585db417340cdd67e88f4961923</start>
+        <start display_value="Begin">9805c1ecdb427b00cdd67e88f49619ce</start>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>bebd2585db417340cdd67e88f496196e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>500541ecdb427b00cdd67e88f4961914</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-05-08 19:12:40</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:55</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
         <u_reviewed>false</u_reviewed>
@@ -70,78 +70,78 @@
         <ola>1970-01-01 00:00:00</ola>
         <order>1100</order>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>fabde585db417340cdd67e88f496191c</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d005c1ecdb427b00cdd67e88f49619ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Delivery</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>140</order>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f6bde585db417340cdd67e88f496191c</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5005c1ecdb427b00cdd67e88f49619ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>delivery</value>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Fulfillment</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>120</order>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f2bde585db417340cdd67e88f496191c</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d40541ecdb427b00cdd67e88f4961915</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>fulfillment</value>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Cancelled</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1000</order>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>72bde585db417340cdd67e88f496191c</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>500541ecdb427b00cdd67e88f4961915</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>Request Cancelled</value>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Approved</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>90</order>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7abde585db417340cdd67e88f496191c</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>540541ecdb427b00cdd67e88f4961915</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>request_approved</value>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Waiting for Approval</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>100</order>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>76bde585db417340cdd67e88f496191c</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d00541ecdb427b00cdd67e88f4961915</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>waiting_for_approval</value>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
@@ -157,51 +157,51 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Waiting for Approval">76bde585db417340cdd67e88f496191c</stage>
+        <stage display_value="Waiting for Approval">d00541ecdb427b00cdd67e88f4961915</stage>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>fabde585db417340cdd67e88f4961923</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5805c1ecdb427b00cdd67e88f49619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:57</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
         <x>127</x>
         <y>1</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=fabde585db417340cdd67e88f4961923"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5805c1ecdb427b00cdd67e88f49619d5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>fabde585db417340cdd67e88f4961923</document_key>
+        <document_key>5805c1ecdb427b00cdd67e88f49619d5</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7ebde585db417340cdd67e88f4961923</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d805c1ecdb427b00cdd67e88f49619d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>approved</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>fabde585db417340cdd67e88f4961923</document_key>
+        <document_key>5805c1ecdb427b00cdd67e88f49619d5</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7ebde585db417340cdd67e88f4961923</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d805c1ecdb427b00cdd67e88f49619d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>approved</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Auto-Approver">fabde585db417340cdd67e88f4961923</activity>
+        <activity display_value="Auto-Approver">5805c1ecdb427b00cdd67e88f49619d5</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -215,11 +215,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>b2bde585db417340cdd67e88f4961924</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9005c1ecdb427b00cdd67e88f49619d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -237,21 +237,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>32bde585db417340cdd67e88f4961923</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9805c1ecdb427b00cdd67e88f49619ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
         <x>11</x>
         <y>7</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=32bde585db417340cdd67e88f4961923"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9805c1ecdb427b00cdd67e88f49619ce"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">32bde585db417340cdd67e88f4961923</activity>
+        <activity display_value="Begin">9805c1ecdb427b00cdd67e88f49619ce</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -265,11 +265,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>36bde585db417340cdd67e88f4961923</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9005c1ecdb427b00cdd67e88f49619cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -285,21 +285,21 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Completed">fabde585db417340cdd67e88f496191c</stage>
+        <stage display_value="Completed">d005c1ecdb427b00cdd67e88f49619ce</stage>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7abde585db417340cdd67e88f4961922</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9805c1ecdb427b00cdd67e88f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:24:01</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
         <x>544</x>
         <y>0</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=7abde585db417340cdd67e88f4961922"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9805c1ecdb427b00cdd67e88f49619cf"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Catalog Task">38891b6f0a0a0b1e00efdfdd77602027</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -314,304 +314,215 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Fulfillment">f2bde585db417340cdd67e88f496191c</stage>
+        <stage display_value="Fulfillment">d40541ecdb427b00cdd67e88f4961915</stage>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f2bde585db417340cdd67e88f496191d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1405c1ecdb427b00cdd67e88f49619d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:25:14</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:51</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
         <x>328</x>
         <y>1</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f2bde585db417340cdd67e88f496191d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1405c1ecdb427b00cdd67e88f49619d0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>1100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>32bde585db417340cdd67e88f496191e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value>f869fa071bebe780e63e10e4bd4bcba9</value>
-        <variable display_value="">d7f2bd33c0a801650021da8ff242a081</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>1660</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>32bde585db417340cdd67e88f4961921</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
-// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
-//&#13;
-// For example:&#13;
-//     task.short_description = current.short_description;&#13;
-task.short_description = current.variables.short_description;</value>
-        <variable display_value="">98b96f90c0a800666b58ec516f330397</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>36bde585db417340cdd67e88f4961920</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">8f722677c0a800664d3a879fadd87bfc</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>1600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>3abde585db417340cdd67e88f496191f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">c360b4100a0a0ba97c533f1148325820</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>700</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>3ebde585db417340cdd67e88f496191e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">8f68b111c0a800662a07dc10fa198c4f</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>720</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>3ebde585db417340cdd67e88f4961921</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">8f6d4120c0a8006655edc4495deb43ab</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>20</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>72bde585db417340cdd67e88f4961920</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1005c1ecdb427b00cdd67e88f49619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">d7ec9d5cc0a8016500a4ed439b25f438</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>250</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>76bde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1405c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">c360b80b0a0a0ba97c533f11a0c9814c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7abde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1805c1ecdb427b00cdd67e88f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>Miscellaneous Reimbursement Request – Any question or ad hoc request for information, data, or analysis that does not fall into other request types.</value>
         <variable display_value="">d7f61655c0a8016500793dd16da8beff</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7abde585db417340cdd67e88f4961921</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1805c1ecdb427b00cdd67e88f49619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f5ec60dc0a800667063095e6702d1ee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1650</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7ebde585db417340cdd67e88f496191d</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1c05c1ecdb427b00cdd67e88f49619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>1</value>
         <variable display_value="">98b91165c0a800665c43a410b6f29fe5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7ebde585db417340cdd67e88f4961920</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1c05c1ecdb427b00cdd67e88f49619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>Fields</value>
         <variable display_value="">d7ee92ddc0a8016500b307a89bbf3db1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>b2bde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5005c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">8f79bbdbc0a80066479b2d5ea4863c24</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>b6bde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5405c1ecdb427b00cdd67e88f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">d7f79afac0a80165001b98ae987d06a5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>610</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>b6bde585db417340cdd67e88f4961921</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5405c1ecdb427b00cdd67e88f49619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f6728b4c0a80066478f02b692654b58</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>babde585db417340cdd67e88f496191d</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5805c1ecdb427b00cdd67e88f49619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f63ae0fc0a80066697c832ba44df4e1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>620</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>babde585db417340cdd67e88f4961920</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5805c1ecdb427b00cdd67e88f49619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f6814cfc0a8006605477949c2fa6e6e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>bebde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5c05c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">d7f3c998c0a8016500d0204c0005453b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>710</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f2bde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9005c1ecdb427b00cdd67e88f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f2bde585db417340cdd67e88f4961921</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9005c1ecdb427b00cdd67e88f49619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>Step 1. Gather requirements or clarify question &#13;
 Step 2. Do research &#13;
 Step 3. Prepare summary of data/findings</value>
@@ -619,309 +530,398 @@ Step 3. Prepare summary of data/findings</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1700</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f6bde585db417340cdd67e88f496191d</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9405c1ecdb427b00cdd67e88f49619d0</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:25:14</sys_updated_on>
-        <value>FacOther,conStart,contractingPriority,description,desired_due_date,facility_provider_name,formatter3,short_description,break,cont_end,cont_start,department,requested_for,user_phone,user_title</value>
+        <sys_updated_on>2019-06-11 19:11:51</sys_updated_on>
+        <value>FacOther,break,conStart,cont_end,cont_start,contractingPriority,department,description,desired_due_date,facility_provider_name,formatter3,requested_for,short_description,user_phone,user_title,network,product</value>
         <variable display_value="">acb99baa0a0a0ba300d0938182192ad4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f6bde585db417340cdd67e88f4961920</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9405c1ecdb427b00cdd67e88f49619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>sc_task</value>
         <variable display_value="">d7eb710cc0a80165001dace00d26aee0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>fabde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9805c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>474da9706f951f00f4331ecbbb3ee4e6</value>
         <variable display_value="">8f630a2cc0a80066385b16d90585802d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>40</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>febde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9c05c1ecdb427b00cdd67e88f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>1</value>
         <variable display_value="">c360af110a0a0ba97c533f11e09f464f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f6bde585db417340cdd67e88f4961920</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value>sc_task</value>
-        <variable display_value="">d7eb710cc0a80165001dace00d26aee0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>72bde585db417340cdd67e88f4961920</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">d7ec9d5cc0a8016500a4ed439b25f438</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>40</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>febde585db417340cdd67e88f496191e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">c360af110a0a0ba97c533f11e09f464f</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7abde585db417340cdd67e88f4961921</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">8f5ec60dc0a800667063095e6702d1ee</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>250</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>76bde585db417340cdd67e88f496191f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">c360b80b0a0a0ba97c533f11a0c9814c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>36bde585db417340cdd67e88f4961920</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d005c1ecdb427b00cdd67e88f49619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f722677c0a800664d3a879fadd87bfc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>400</order>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>1600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>fabde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d405c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value>474da9706f951f00f4331ecbbb3ee4e6</value>
-        <variable display_value="">8f630a2cc0a80066385b16d90585802d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>babde585db417340cdd67e88f496191d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
-        <variable display_value="">8f63ae0fc0a80066697c832ba44df4e1</variable>
+        <variable display_value="">c360b4100a0a0ba97c533f1148325820</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>610</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>b6bde585db417340cdd67e88f4961921</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">8f6728b4c0a80066478f02b692654b58</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>620</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>babde585db417340cdd67e88f4961920</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">8f6814cfc0a8006605477949c2fa6e6e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>700</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>3ebde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d805c1ecdb427b00cdd67e88f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f68b111c0a800662a07dc10fa198c4f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>710</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f2bde585db417340cdd67e88f496191e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value/>
-        <variable display_value="">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>720</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>3ebde585db417340cdd67e88f4961921</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d805c1ecdb427b00cdd67e88f49619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">8f6d4120c0a8006655edc4495deb43ab</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
-        <order>1000</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7ebde585db417340cdd67e88f4961920</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <value>Fields</value>
-        <variable display_value="">d7ee92ddc0a8016500b307a89bbf3db1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>32bde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>dc05c1ecdb427b00cdd67e88f49619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>f869fa071bebe780e63e10e4bd4bcba9</value>
         <variable display_value="">d7f2bd33c0a801650021da8ff242a081</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>dc05c1ecdb427b00cdd67e88f49619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:51</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+task.short_description = current.cat_item.name + " - " + current.variables.short_description;</value>
+        <variable display_value="">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9405c1ecdb427b00cdd67e88f49619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1005c1ecdb427b00cdd67e88f49619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9c05c1ecdb427b00cdd67e88f49619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1805c1ecdb427b00cdd67e88f49619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1405c1ecdb427b00cdd67e88f49619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d005c1ecdb427b00cdd67e88f49619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9805c1ecdb427b00cdd67e88f49619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value>474da9706f951f00f4331ecbbb3ee4e6</value>
+        <variable display_value="">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5805c1ecdb427b00cdd67e88f49619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5405c1ecdb427b00cdd67e88f49619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5805c1ecdb427b00cdd67e88f49619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d805c1ecdb427b00cdd67e88f49619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9005c1ecdb427b00cdd67e88f49619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d805c1ecdb427b00cdd67e88f49619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1c05c1ecdb427b00cdd67e88f49619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>dc05c1ecdb427b00cdd67e88f49619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <value>f869fa071bebe780e63e10e4bd4bcba9</value>
+        <variable display_value="">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>bebde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5c05c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">d7f3c998c0a8016500d0204c0005453b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7abde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1805c1ecdb427b00cdd67e88f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>Miscellaneous Reimbursement Request – Any question or ad hoc request for information, data, or analysis that does not fall into other request types.</value>
         <variable display_value="">d7f61655c0a8016500793dd16da8beff</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f2bde585db417340cdd67e88f4961921</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9005c1ecdb427b00cdd67e88f49619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>Step 1. Gather requirements or clarify question &#13;
 Step 2. Do research &#13;
 Step 3. Prepare summary of data/findings</value>
@@ -929,96 +929,96 @@ Step 3. Prepare summary of data/findings</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>b6bde585db417340cdd67e88f496191e</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5405c1ecdb427b00cdd67e88f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">d7f79afac0a80165001b98ae987d06a5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>3abde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d405c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value/>
         <variable display_value="">c360b4100a0a0ba97c533f1148325820</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1650</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7ebde585db417340cdd67e88f496191d</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1c05c1ecdb427b00cdd67e88f49619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>1</value>
         <variable display_value="">98b91165c0a800665c43a410b6f29fe5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1660</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>32bde585db417340cdd67e88f4961921</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>dc05c1ecdb427b00cdd67e88f49619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:51</sys_updated_on>
         <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
 // Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
 //&#13;
 // For example:&#13;
 //     task.short_description = current.short_description;&#13;
-task.short_description = current.variables.short_description;</value>
+task.short_description = current.cat_item.name + " - " + current.variables.short_description;</value>
         <variable display_value="">98b96f90c0a800666b58ec516f330397</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>1700</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>f6bde585db417340cdd67e88f496191d</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9405c1ecdb427b00cdd67e88f49619d0</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:25:14</sys_updated_on>
-        <value>FacOther,conStart,contractingPriority,description,desired_due_date,facility_provider_name,formatter3,short_description,break,cont_end,cont_start,department,requested_for,user_phone,user_title</value>
+        <sys_updated_on>2019-06-11 19:11:51</sys_updated_on>
+        <value>FacOther,break,conStart,cont_end,cont_start,contractingPriority,department,description,desired_due_date,facility_provider_name,formatter3,requested_for,short_description,user_phone,user_title,network,product</value>
         <variable display_value="">acb99baa0a0a0ba300d0938182192ad4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f2bde585db417340cdd67e88f496191d</document_key>
+        <document_key>1405c1ecdb427b00cdd67e88f49619d0</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>b2bde585db417340cdd67e88f496191f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>5005c1ecdb427b00cdd67e88f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">8f79bbdbc0a80066479b2d5ea4863c24</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Fulfillment">f2bde585db417340cdd67e88f496191d</activity>
+        <activity display_value="Fulfillment">1405c1ecdb427b00cdd67e88f49619d0</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1032,58 +1032,58 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>72bde585db417340cdd67e88f4961922</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>9005c1ecdb427b00cdd67e88f49619d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">72bde585db417340cdd67e88f4961922</condition>
-        <from display_value="Fulfillment">f2bde585db417340cdd67e88f496191d</from>
+        <condition display_value="Always">9005c1ecdb427b00cdd67e88f49619cf</condition>
+        <from display_value="Begin">9805c1ecdb427b00cdd67e88f49619ce</from>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>76bde585db417340cdd67e88f4961925</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1805c1ecdb427b00cdd67e88f49619d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <to display_value="End">7abde585db417340cdd67e88f4961922</to>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <to display_value="Auto-Approver">5805c1ecdb427b00cdd67e88f49619d5</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">36bde585db417340cdd67e88f4961923</condition>
-        <from display_value="Begin">32bde585db417340cdd67e88f4961923</from>
+        <condition display_value="Always">9005c1ecdb427b00cdd67e88f49619d5</condition>
+        <from display_value="Fulfillment">1405c1ecdb427b00cdd67e88f49619d0</from>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7abde585db417340cdd67e88f4961925</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>1c05c1ecdb427b00cdd67e88f49619d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <to display_value="Auto-Approver">fabde585db417340cdd67e88f4961923</to>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <to display_value="End">9805c1ecdb427b00cdd67e88f49619cf</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b2bde585db417340cdd67e88f4961924</condition>
-        <from display_value="Auto-Approver">fabde585db417340cdd67e88f4961923</from>
+        <condition display_value="Always">9005c1ecdb427b00cdd67e88f49619d6</condition>
+        <from display_value="Auto-Approver">5805c1ecdb427b00cdd67e88f49619d5</from>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>7ebde585db417340cdd67e88f4961925</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d005c1ecdb427b00cdd67e88f49619d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <to display_value="Fulfillment">f2bde585db417340cdd67e88f496191d</to>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <to display_value="Fulfillment">1405c1ecdb427b00cdd67e88f49619d0</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-04-24 18:23:26</sys_created_on>
-        <sys_id>32bd2585db417340cdd67e88f496196f</sys_id>
+        <sys_created_on>2019-06-11 19:11:20</sys_created_on>
+        <sys_id>d00541ecdb427b00cdd67e88f4961914</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 18:23:26</sys_updated_on>
-        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">bebd2585db417340cdd67e88f496196e</workflow_version>
+        <sys_updated_on>2019-06-11 19:11:20</sys_updated_on>
+        <workflow_version display_value="NetMan - Miscellaneous Reimbursement Request">500541ecdb427b00cdd67e88f4961914</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=ed15a7d61bff2340a27f437ead4bcbef^sys_id!=bebd2585db417340cdd67e88f496196e">
+    <wf_workflow_version action="update_multiple" query="workflow=ed15a7d61bff2340a27f437ead4bcbef^sys_id!=500541ecdb427b00cdd67e88f4961914">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
