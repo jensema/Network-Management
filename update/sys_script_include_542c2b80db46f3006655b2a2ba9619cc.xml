@@ -16,7 +16,7 @@ CopyRecord.prototype = {
 
 CopyRecord.copy=function(tableName, sourceID) {
 	var target = new GlideRecord(tableName);
-	target.initialize();
+	target.newRecord();
 	
 	var source = new GlideRecord(tableName);
 	source.get(sourceID);
@@ -31,11 +31,14 @@ CopyRecord.copy=function(tableName, sourceID) {
 		while (fields.next()){
 			var element = fields.element;
 			var sourceValue = source.getValue(element);
-			if (sourceValue != "" || element != "sys_id"){
+			if (sourceValue != "" && element != "sys_id"){
 			target.setValue(fields.element, source.getValue(fields.element));
 			var targetValue = target.getValue(element);
 			}
 		}
+		
+		target.update();
+		target.setValue('short_description',target.getValue('number') + " - " + target.getValue('contracting_entity_name'));
 		target.update();
 		return target.getLink();
 	}
@@ -45,7 +48,7 @@ CopyRecord.copy=function(tableName, sourceID) {
         <sys_created_on>2019-06-10 18:05:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>542c2b80db46f3006655b2a2ba9619cc</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>CopyRecord</sys_name>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
         <sys_policy>read</sys_policy>
@@ -53,6 +56,6 @@ CopyRecord.copy=function(tableName, sourceID) {
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sys_script_include_542c2b80db46f3006655b2a2ba9619cc</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-12 20:14:46</sys_updated_on>
+        <sys_updated_on>2019-06-13 15:40:26</sys_updated_on>
     </sys_script_include>
 </record_update>
