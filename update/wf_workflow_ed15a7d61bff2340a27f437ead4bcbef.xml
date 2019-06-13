@@ -31,13 +31,13 @@
         <sys_created_by>_bvanna</sys_created_by>
         <sys_created_on>2019-06-11 19:11:20</sys_created_on>
         <sys_id>500541ecdb427b00cdd67e88f4961914</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-11 19:11:55</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>ljannu</sys_updated_by>
+        <sys_updated_on>2019-06-12 14:55:54</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
         <u_reviewed>false</u_reviewed>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="NetMan - Miscellaneous Reimbursement Request">ed15a7d61bff2340a27f437ead4bcbef</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

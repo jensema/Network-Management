@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Net Man Reimbursement - Claim Request">9c35eb461b2767006d740d03cd4bcbb7</sc_cat_item>
+        <sc_cat_item display_value="Net Man Reimbursement - Claims Request">9c35eb461b2767006d740d03cd4bcbb7</sc_cat_item>
         <sc_catalog display_value="Network Management">402203b41b23e300a27f437ead4bcb8b</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>

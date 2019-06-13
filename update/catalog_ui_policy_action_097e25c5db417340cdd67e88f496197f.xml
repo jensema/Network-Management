@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Net Man Reimbursement - Claim Request">9c35eb461b2767006d740d03cd4bcbb7</catalog_item>
+        <catalog_item display_value="Net Man Reimbursement - Claims Request">9c35eb461b2767006d740d03cd4bcbb7</catalog_item>
         <catalog_variable>IO:a1da65c1db417340cdd67e88f4961990</catalog_variable>
         <cleared>false</cleared>
         <disabled>true</disabled>

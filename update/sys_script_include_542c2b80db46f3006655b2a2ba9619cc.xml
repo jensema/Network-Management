@@ -16,7 +16,7 @@ CopyRecord.prototype = {
 
 CopyRecord.copy=function(tableName, sourceID) {
 	var target = new GlideRecord(tableName);
-	target.newRecord();
+	target.initialize();
 	
 	var source = new GlideRecord(tableName);
 	source.get(sourceID);
@@ -24,20 +24,20 @@ CopyRecord.copy=function(tableName, sourceID) {
 	if (source.isValidRecord()){
 		
 		var fields = new GlideRecord('sys_dictionary');
-		fields.addEncodedQuery('elementISNOTEMPTY^attributesNOT LIKEno_copy^name='+tableName);
+		fields.addEncodedQuery('elementISNOTEMPTY^attributesNOT LIKEno_copy^ORattributesISEMPTY^name='+tableName);
 		
 		fields.query();
 		
 		while (fields.next()){
 			var element = fields.element;
 			var sourceValue = source.getValue(element);
-			if (sourceValue != ""){
+			if (sourceValue != "" || element != "sys_id"){
 			target.setValue(fields.element, source.getValue(fields.element));
 			var targetValue = target.getValue(element);
 			}
 		}
 		target.update();
-		return target;
+		return target.getLink();
 	}
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
@@ -45,7 +45,7 @@ CopyRecord.copy=function(tableName, sourceID) {
         <sys_created_on>2019-06-10 18:05:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>542c2b80db46f3006655b2a2ba9619cc</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>CopyRecord</sys_name>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
         <sys_policy>read</sys_policy>
@@ -53,6 +53,6 @@ CopyRecord.copy=function(tableName, sourceID) {
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sys_script_include_542c2b80db46f3006655b2a2ba9619cc</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-11 15:03:07</sys_updated_on>
+        <sys_updated_on>2019-06-12 20:14:46</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -2,31 +2,45 @@
     <sys_ui_related sys_domain="global" table="x_dehp_network_man_contract_requests" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Contract Requests - Default view" name="x_dehp_network_man_contract_requests" related_list="NULL" sys_domain="global" view="Default view">6b42332c1b00f740a27f437ead4bcb54</list_id>
+            <list_id display_value="Contract Requests - Default view" name="x_dehp_network_man_contract_requests" related_list="NULL" sys_domain="global" view="Default view">74736ef4db8a77006655b2a2ba96193b</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>_ejense</sys_created_by>
-            <sys_created_on>2019-03-04 21:42:54</sys_created_on>
-            <sys_id>af42332c1b00f740a27f437ead4bcb61</sys_id>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-06-12 20:42:27</sys_created_on>
+            <sys_id>b4736ef4db8a77006655b2a2ba96193c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>_ejense</sys_updated_by>
-            <sys_updated_on>2019-03-04 21:42:54</sys_updated_on>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-06-12 20:42:27</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Contract Requests - Default view" name="x_dehp_network_man_contract_requests" related_list="NULL" sys_domain="global" view="Default view">6b42332c1b00f740a27f437ead4bcb54</list_id>
+            <list_id display_value="Contract Requests - Default view" name="x_dehp_network_man_contract_requests" related_list="NULL" sys_domain="global" view="Default view">74736ef4db8a77006655b2a2ba96193b</list_id>
             <order_by/>
             <position>1</position>
             <related_list>REL:412b7b420a258102002a5fdbfab70593</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>_ejense</sys_created_by>
-            <sys_created_on>2019-03-04 21:42:54</sys_created_on>
-            <sys_id>e742332c1b00f740a27f437ead4bcb62</sys_id>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-06-12 20:42:27</sys_created_on>
+            <sys_id>70736ef4db8a77006655b2a2ba96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>_ejense</sys_updated_by>
-            <sys_updated_on>2019-03-04 21:42:54</sys_updated_on>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-06-12 20:42:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Contract Requests - Default view" name="x_dehp_network_man_contract_requests" related_list="NULL" sys_domain="global" view="Default view">74736ef4db8a77006655b2a2ba96193b</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_dehp_network_man_contract_tasks.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-06-12 20:42:27</sys_created_on>
+            <sys_id>f4736ef4db8a77006655b2a2ba96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-06-12 20:42:27</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Contract Requests - Default view</calculated_name>
@@ -36,11 +50,11 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>_ejense</sys_created_by>
-            <sys_created_on>2019-03-04 21:42:54</sys_created_on>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-06-12 20:42:27</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>6b42332c1b00f740a27f437ead4bcb54</sys_id>
+            <sys_id>74736ef4db8a77006655b2a2ba96193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Contract Requests - Default view</sys_name>
             <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
@@ -48,8 +62,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
             <sys_update_name>sys_ui_related_x_dehp_network_man_contract_requests_null</sys_update_name>
-            <sys_updated_by>_ejense</sys_updated_by>
-            <sys_updated_on>2019-03-04 21:42:54</sys_updated_on>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-06-12 20:42:27</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
