@@ -21,59 +21,56 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>Choose 'Other' if name not found in list.</help_text>
-        <include_none>true</include_none>
+        <help_text/>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table>x_dehp_network_man_facility_provider</list_table>
-        <lookup_label>name</lookup_label>
+        <list_table>x_dehp_network_man_provider_id</list_table>
+        <lookup_label/>
         <lookup_price/>
-        <lookup_table>x_dehp_network_man_facility_provider</lookup_table>
+        <lookup_table/>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>name</lookup_value>
+        <lookup_value/>
         <macro/>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>facility_provider_name</name>
-        <order>50</order>
+        <name>provider_id</name>
+        <order>75</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Facility/Provider Name:</question_text>
+        <question_text>Provider ID</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table/>
-        <reference>x_dehp_network_man_facility_provider</reference>
-        <reference_qual>active=true^ORDERBYorder</reference_qual>
-        <reference_qual_condition table="x_dehp_network_man_facility_provider">active=true^EQ^ORDERBYorder<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="order"/>
-        </reference_qual_condition>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
-        <show_help_on_load>true</show_help_on_load>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-02-08 16:35:31</sys_created_on>
+        <sys_created_on>2019-06-18 20:31:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>fec543381b23e300a27f437ead4bcb1b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
-        <sys_name>Facility/Provider Name:</sys_name>
+        <sys_id>c04a1d7adbcafb006655b2a2ba9619b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Provider ID</sys_name>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
-        <sys_update_name>item_option_new_fec543381b23e300a27f437ead4bcb1b</sys_update_name>
+        <sys_update_name>item_option_new_c04a1d7adbcafb006655b2a2ba9619b1</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-18 20:34:24</sys_updated_on>
+        <sys_updated_on>2019-06-18 20:35:03</sys_updated_on>
         <table/>
-        <tooltip>On Choice of Other, Please provide below</tooltip>
+        <tooltip/>
         <type>21</type>
         <u_allow_copy>true</u_allow_copy>
         <ui_page/>
@@ -89,22 +86,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=fec543381b23e300a27f437ead4bcb1b"/>
-    <fx_price action="delete_multiple" query="id=fec543381b23e300a27f437ead4bcb1b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c04a1d7adbcafb006655b2a2ba9619b1"/>
+    <fx_price action="delete_multiple" query="id=c04a1d7adbcafb006655b2a2ba9619b1"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>fec543381b23e300a27f437ead4bcb1b</id>
+        <id>c04a1d7adbcafb006655b2a2ba9619b1</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-02-08 16:35:31</sys_created_on>
-        <sys_id>72c543381b23e300a27f437ead4bcb1e</sys_id>
+        <sys_created_on>2019-06-18 20:31:36</sys_created_on>
+        <sys_id>ec8add7adbcafb006655b2a2ba9619c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-02-08 16:35:31</sys_updated_on>
+        <sys_updated_on>2019-06-18 20:31:36</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -112,16 +109,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>fec543381b23e300a27f437ead4bcb1b</id>
+        <id>c04a1d7adbcafb006655b2a2ba9619b1</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>_bvanna</sys_created_by>
-        <sys_created_on>2019-02-08 16:35:31</sys_created_on>
-        <sys_id>3ac543381b23e300a27f437ead4bcb1d</sys_id>
+        <sys_created_on>2019-06-18 20:31:36</sys_created_on>
+        <sys_id>688add7adbcafb006655b2a2ba9619c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-02-08 16:35:31</sys_updated_on>
+        <sys_updated_on>2019-06-18 20:31:36</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

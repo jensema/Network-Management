@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Provider Names" max_length="40" name="x_dehp_network_man_provider_names" type="collection">
-        <element attributes="import_attribute_name=DBA,edge_encryption_enabled=true" label="DBA" max_length="187" name="u_dba" type="string"/>
-        <element attributes="import_attribute_name=Entity Name,edge_encryption_enabled=true" label="Entity Name" max_length="315" name="u_entity_name" type="string"/>
-    </element>
-</database>

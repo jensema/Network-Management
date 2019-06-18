@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="12" type="collection">
+    <element audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="32" type="collection">
         <element label="Additional restrictions" max_length="1000" name="additional_restrictions" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Addition or Deletion to practice restrictions" max_length="40" name="addition_or_deletion_to_practice_restrictions" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Amendment Other T/F" max_length="40" name="admendment_other" type="boolean"/>
@@ -62,21 +62,21 @@
         <element label="List changes to be made to reimbursement" max_length="1000" name="list_changes_to_reimbursement" type="string"/>
         <element label="Locations restricted to" max_length="4000" name="locations_restricted_to" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Medicare Advantage product addition" max_length="40" name="medicare_advantage_product_addition" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Medicare Agreement Type" max_length="40" name="medicare_agreement_type" type="choice">
+        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" label="Medicare Agreement Type" max_length="40" name="medicare_agreement_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Medicare Gold Organizational (includes Hospital)" value="Medicare Gold Organizational (includes Hospital)"/>
                 <element inactive_on_update="false" label="Medicare Gold Practitioner (includes Chiropractic)" value="Medicare Gold Practitioner (includes Chiropractic)"/>
             </choice>
         </element>
         <element label="Medicare Certification #" max_length="200" name="medicare_certification" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Medicare Network Type" max_length="40" name="medicare_network_type" type="choice">
+        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" label="Medicare Network Type" max_length="40" name="medicare_network_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Dean Network" sequence="10" value="Dean Network"/>
                 <element inactive_on_update="false" label="Prevea360 Network" sequence="20" value="Prevea360 Network"/>
                 <element inactive_on_update="false" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Medicare Status" max_length="200" name="medicare_status" type="string">
+        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" label="Medicare Status" max_length="200" name="medicare_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Plan (P)" sequence="10" value="Plan (P)"/>
                 <element inactive_on_update="false" label="Non-Plan with Agreement (NA)" sequence="20" value="Non-Plan with Agreement (NA)"/>
@@ -99,7 +99,7 @@
             </choice>
         </element>
         <element label="New TIN and/or NPI" max_length="200" name="new_tin_npi" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Non-Medicare Agreement Type" max_length="40" name="non_medicare_agreement_type" type="choice">
+        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" label="Non-Medicare Agreement Type" max_length="40" name="non_medicare_agreement_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Acupuncture" value="Acupuncture"/>
                 <element inactive_on_update="false" label="Chiropractic" value="Chiropractic"/>
@@ -109,14 +109,14 @@
                 <element inactive_on_update="false" label="Practitioner" value="Practitioner"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Non-Medicare Network" max_length="40" name="non_medicare_network" type="choice">
+        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" label="Non-Medicare Network" max_length="40" name="non_medicare_network" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Dean Network" sequence="10" value="Dean Network"/>
                 <element inactive_on_update="false" label="Prevea360 Network" sequence="20" value="Prevea360 Network"/>
                 <element inactive_on_update="false" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Non-Medicare Status" max_length="200" name="non_medicare_status" type="string">
+        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" label="Non-Medicare Status" max_length="200" name="non_medicare_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Plan (P)" sequence="10" value="Plan (P)"/>
                 <element inactive_on_update="false" label="Non-Plan with Agreement (NA)" sequence="20" value="Non-Plan with Agreement (NA)"/>
