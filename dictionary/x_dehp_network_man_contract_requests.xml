@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="32" type="collection">
+    <element audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="33" type="collection">
         <element label="Additional restrictions" max_length="1000" name="additional_restrictions" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Addition or Deletion to practice restrictions" max_length="40" name="addition_or_deletion_to_practice_restrictions" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Amendment Other T/F" max_length="40" name="admendment_other" type="boolean"/>

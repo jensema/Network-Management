@@ -7,9 +7,11 @@
         <affected_field_on_event/>
         <category display_value="Network Management" name="Network Management">00dcb36c1b4c77406d740d03cd4bcb09</category>
         <collection>x_dehp_network_man_contract_requests</collection>
-        <condition table="x_dehp_network_man_contract_requests">assigned_toISEMPTY^assignment_groupVALCHANGES^assignment_groupISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+        <condition table="x_dehp_network_man_contract_requests">assigned_toISEMPTY^assignment_groupVALCHANGES^assignment_groupISNOTEMPTY^stateVALCHANGES^state!=1010^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="1010"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -50,9 +52,9 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>assignment_group</recipient_fields>
         <recipient_groups/>
-        <recipient_users>DHP.Contracting.inquiries@ssmhealth.com</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -65,7 +67,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>68f88f3edb48b3008524f77c299619ee</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Contract Request assigned to my group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
@@ -73,8 +75,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sysevent_email_action_68f88f3edb48b3008524f77c299619ee</sys_update_name>
-        <sys_updated_by>_ejense</sys_updated_by>
-        <sys_updated_on>2019-04-02 20:10:32</sys_updated_on>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-18 20:47:54</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
