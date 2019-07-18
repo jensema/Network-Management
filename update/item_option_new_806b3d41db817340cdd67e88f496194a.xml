@@ -25,7 +25,7 @@
         <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table/>
+        <list_table>x_dehp_network_man_network_products</list_table>
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
@@ -60,7 +60,7 @@
         <sys_created_on>2019-04-24 19:28:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>806b3d41db817340cdd67e88f496194a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Product:</sys_name>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
         <sys_policy/>
@@ -68,14 +68,14 @@
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>item_option_new_806b3d41db817340cdd67e88f496194a</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-04-24 20:09:10</sys_updated_on>
+        <sys_updated_on>2019-06-27 16:06:57</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>21</type>
         <u_allow_copy>true</u_allow_copy>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <variable_name/>
         <variable_set display_value="Network and Products">1eb8fdcddb417340cdd67e88f49619be</variable_set>
         <variable_width/>

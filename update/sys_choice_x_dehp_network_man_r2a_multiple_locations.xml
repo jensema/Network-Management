@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="multiple_locations" table="x_dehp_network_man_r2a" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>multiple_locations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>0</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-10 18:06:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9a5c4ef5db6a37006655b2a2ba961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-10 18:06:50</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>multiple_locations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>1</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-10 18:06:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>125c4ef5db6a37006655b2a2ba961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-10 18:06:50</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>multiple_locations</element>
+            <name>x_dehp_network_man_r2a</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-10 18:06:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d25c4ef5db6a37006655b2a2ba961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>multiple_locations</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_choice_x_dehp_network_man_r2a_multiple_locations</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-10 18:06:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

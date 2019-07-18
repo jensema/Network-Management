@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="amendment_other_text" label="Amendment Other(amendment_other_text)" language="en" table="x_dehp_network_man_r2a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>amendment_other_text</element>
+            <help/>
+            <hint/>
+            <label>Amendment Other(amendment_other_text)</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <plural>Amendment Other(amendment_other_text)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-06-26 19:38:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ac0b9e11db9e7300cdd67e88f496199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Amendment Other(amendment_other_text)</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_documentation_x_dehp_network_man_r2a_amendment_other_text_en</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-06-26 19:38:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

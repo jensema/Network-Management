@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nearest_idn_practitioners_number" label="# of practitioners &amp; titles" language="en" table="x_dehp_network_man_r2a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nearest_idn_practitioners_number</element>
+            <help/>
+            <hint/>
+            <label># of practitioners &amp; titles</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <plural># of practitioners &amp; titles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-11 19:17:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9006a78edbea77006655b2a2ba9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name># of practitioners &amp; titles</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_documentation_x_dehp_network_man_r2a_nearest_idn_practitioners_number_en</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-11 19:17:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

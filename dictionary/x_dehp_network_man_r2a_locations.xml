@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="R2A Locations" max_length="40" name="x_dehp_network_man_r2a_locations" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="County" max_length="40" name="county" type="string"/>
+        <element label="Fax phone" max_length="40" name="fax_phone" type="string"/>
+        <element label="Full Name" max_length="255" name="full_name" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_dehp_network_man_r2a" type="reference"/>
+        <element choice="1" label="PCP Site" max_length="40" name="pcp_site" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="State / Province" max_length="40" name="state" type="string"/>
+        <element label="Street" max_length="2000" name="street" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" choice_field="time_zone" choice_table="sys_user" label="time Zone" max_length="40" name="time_zone" type="string">
+            <choice/>
+        </element>
+        <element label="Zip / Postal Code" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

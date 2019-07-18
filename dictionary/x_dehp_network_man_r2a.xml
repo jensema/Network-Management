@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_dehp_network_man_contract_requests" label="Request to Add" max_length="40" name="x_dehp_network_man_r2a" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="approval_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Plan Agreement" sequence="0" value="plan agreement"/>
+                <element inactive_on_update="false" label="Non-Plan with Agreement" sequence="1" value="non-plan with agreement"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Entity Name" max_length="200" name="contract_entity_name" type="string"/>
+        <element label="Termination Date" max_length="40" name="contract_idn_p360_termed" type="glide_date"/>
+        <element label="Prevea360/HSHS" max_length="40" name="contract_idn_prevea260" type="boolean"/>
+        <element label="SSM Health" max_length="40" name="contract_idn_ssm" type="boolean"/>
+        <element label="Termination Date" max_length="40" name="contract_idn_ssm_termed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="MTV ID#" max_length="40" name="contract_mtv_num" type="string"/>
+        <element label="Non-IDN Entity" max_length="40" name="contract_non_idn_entity" type="boolean"/>
+        <element label="Termination Date" max_length="40" name="contract_non_idn_termed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Decision" max_length="40" name="decision" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Denied" sequence="1" value="denied"/>
+            </choice>
+        </element>
+        <element label="Does not accept Medicaid and/or Medicare" max_length="40" name="decision_medicare_medicaid" type="boolean"/>
+        <element label="Network Adequecy" max_length="40" name="decision_network_adequecy" type="boolean"/>
+        <element label="Other reasons" max_length="40" name="decision_other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason Other" max_length="40" name="decision_other_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address (City State, Zip Code)" max_length="100" name="location_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="County" max_length="40" name="location_county" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location Name" max_length="200" name="location_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Medicaid" max_length="40" name="medicaid" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Medicare" max_length="40" name="medicare" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are there Multiple locations?" max_length="40" name="multiple_locations" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="National Provider" max_length="40" name="national_provider" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nearest IDN with same service" max_length="200" name="nearest_idn" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="# of practitioners &amp; titles" max_length="4000" name="nearest_idn_practitioners_number" type="string"/>
+        <element label="Nearest IDN Provider" max_length="200" name="nearest_idn_provider" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nearest Non-IDN with same service" max_length="200" name="nearest_non_idn" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="# of practitioners &amp; titles" max_length="4000" name="nearest_non_idn_practitioners_number" type="string"/>
+        <element label="Nearest Non-IDN Provider" max_length="200" name="nearest_non_idn_provider" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Networks" max_length="1024" name="networks" reference="x_dehp_network_man_network_products" reference_qual="type=network^EQ" reference_qual_condition="type=network^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Entity Name" max_length="200" name="practitioner_entity_name" type="string"/>
+        <element label="Prevea360/HSHS" max_length="40" name="practitioner_idn_p360" type="boolean"/>
+        <element label="Termination Date" max_length="40" name="practitioner_idn_p360_termed" type="glide_date"/>
+        <element label="SSM Health" max_length="40" name="practitioner_idn_ssm" type="boolean"/>
+        <element label="Termination Date" max_length="40" name="practitioner_idn_ssm_termed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="MTV ID#" max_length="40" name="practitioner_mtv_num" type="string"/>
+        <element label="Non-IDN Entity" max_length="40" name="practitioner_non_idn" type="boolean"/>
+        <element label="Non-IDN Entity" max_length="40" name="practitioner_non_idn_entity" type="boolean"/>
+        <element label="Termination Date" max_length="40" name="practitioner_non_idn_termed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Entity/Organization has a previous contract?" max_length="40" name="previous_contract" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is individual practitioners credentialed/contracted?" max_length="40" name="previous_practitioner" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Priority Reason" max_length="200" name="priority_reason" type="string"/>
+        <element label="Date Received" max_length="40" name="received" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State Sponser" max_length="40" name="state_sponser" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Type of Service" max_length="400" name="type_of_service" type="string"/>
+    </element>
+</database>

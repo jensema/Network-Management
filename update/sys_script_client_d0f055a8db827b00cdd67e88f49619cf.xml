@@ -29,7 +29,7 @@ if (g_form.getValue('state') == '1001'|| g_form.getValue('state') == '1005'){
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d0f055a8db827b00cdd67e88f49619cf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>populate Assigned PNC/Contractor</sys_name>
         <sys_overrides/>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
@@ -38,7 +38,7 @@ if (g_form.getValue('state') == '1001'|| g_form.getValue('state') == '1005'){
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sys_script_client_d0f055a8db827b00cdd67e88f49619cf</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-12 15:56:45</sys_updated_on>
+        <sys_updated_on>2019-06-26 19:48:35</sys_updated_on>
         <table>x_dehp_network_man_contract_requests</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -26,7 +26,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9668f4a41bf32f00a27f437ead4bcb87</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Base requirements</sys_name>
         <sys_overrides/>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sys_ui_policy_9668f4a41bf32f00a27f437ead4bcb87</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-02-19 21:55:01</sys_updated_on>
+        <sys_updated_on>2019-07-15 21:11:43</sys_updated_on>
         <table>x_dehp_network_man_contract_requests</table>
         <u_invisible/>
         <u_mandatory/>

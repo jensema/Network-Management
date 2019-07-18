@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_dehp_network_man_r2a">x_dehp_network_man_r2a</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>RTA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-26 18:46:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>952f4655db5e7300cdd67e88f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RTA</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_number_952f4655db5e7300cdd67e88f4961948</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-26 18:46:23</sys_updated_on>
+    </sys_number>
+</record_update>

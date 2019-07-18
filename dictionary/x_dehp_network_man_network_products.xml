@@ -2,10 +2,11 @@
     <element label="Network and Products" max_length="40" name="x_dehp_network_man_network_products" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
-        <element choice="1" label="Network" max_length="40" name="network" type="choice">
+        <element choice_field="type" choice_table="x_dehp_network_man_network_products" label="Network" max_length="40" name="network" type="string"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Dean Network" sequence="10" value="Dean Network"/>
-                <element inactive_on_update="false" label="Prevea360 Network" sequence="20" value="Prevea360 Network"/>
+                <element inactive_on_update="false" label="Network" sequence="10" value="network"/>
+                <element inactive_on_update="false" label="Product" sequence="20" value="product"/>
             </choice>
         </element>
     </element>

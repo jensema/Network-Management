@@ -2,502 +2,516 @@
     <sys_ui_section caption="" section_id="506af2c81b37eb00a27f437ead4bcb2f" sys_domain="global" table="x_dehp_network_man_contract_requests" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5b6555acdb827b00cdd67e88f49619e9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
-            <text>Agreement Type(s)</text>
-            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:19</sys_created_on>
+            <sys_id>467c1d6bdb5ef7006655b2a2ba961962</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
+            <text/>
+            <type/>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>
             <position>0</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>136555acdb827b00cdd67e88f49619ea</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>967c1d6bdb5ef7006655b2a2ba961974</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">e497d2561b3f2340a27f437ead4bcbce</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>1</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>db6555acdb827b00cdd67e88f49619ea</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>127c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>2</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5f6555acdb827b00cdd67e88f49619ea</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>927c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
             <position>3</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>df6555acdb827b00cdd67e88f49619ea</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>167c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>4</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>536555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>967c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>contracting_entity_name</element>
             <position>5</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d36555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1a7c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>doing_business_as</element>
             <position>6</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>576555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9a7c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>7</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d76555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1e7c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
             <position>8</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5b6555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9e7c1d6bdb5ef7006655b2a2ba961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
             <position>9</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>db6555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>127c1d6bdb5ef7006655b2a2ba961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_pnc</element>
             <position>10</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5f6555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>927c1d6bdb5ef7006655b2a2ba961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_contractor</element>
             <position>11</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>df6555acdb827b00cdd67e88f49619eb</sys_id>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>167c1d6bdb5ef7006655b2a2ba961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requester</element>
+            <position>12</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>967c1d6bdb5ef7006655b2a2ba961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>12</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>536555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>13</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1a7c1d6bdb5ef7006655b2a2ba961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>13</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d36555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>14</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9a7c1d6bdb5ef7006655b2a2ba961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>new_or_amendment</element>
-            <position>14</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>576555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>15</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1e7c1d6bdb5ef7006655b2a2ba961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>origin_of_request</element>
-            <position>15</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d76555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>16</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9e7c1d6bdb5ef7006655b2a2ba961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>network_adequacy_gap</element>
-            <position>16</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5b6555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>17</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>127c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cms_essential_community_provider_ecp</element>
-            <position>17</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>db6555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>18</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>927c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reason_other</element>
-            <position>18</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5f6555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>19</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>167c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reason_other_text</element>
-            <position>19</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>df6555acdb827b00cdd67e88f49619ec</sys_id>
+            <position>20</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>967c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>20</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>536555acdb827b00cdd67e88f49619ed</sys_id>
+            <position>21</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1a7c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>is_effective_date_pre_determined</element>
-            <position>21</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d36555acdb827b00cdd67e88f49619ed</sys_id>
+            <position>22</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9a7c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>effective_date</element>
-            <position>22</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>576555acdb827b00cdd67e88f49619ed</sys_id>
+            <position>23</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1e7c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pre_determined_date_retroactive</element>
-            <position>23</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d76555acdb827b00cdd67e88f49619ed</sys_id>
+            <position>24</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9e7c1d6bdb5ef7006655b2a2ba961977</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>credentialing_required</element>
-            <position>24</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5b6555acdb827b00cdd67e88f49619ed</sys_id>
+            <position>25</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>127c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>25</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>db6555acdb827b00cdd67e88f49619ed</sys_id>
+            <position>26</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>927c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>5b6555acdb827b00cdd67e88f49619e9</element>
-            <position>26</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5f6555acdb827b00cdd67e88f49619ed</sys_id>
+            <element>467c1d6bdb5ef7006655b2a2ba961962</element>
+            <position>27</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>167c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>27</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>df6555acdb827b00cdd67e88f49619ed</sys_id>
+            <position>28</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>967c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>non_medicare_agreement_type</element>
-            <position>28</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>536555acdb827b00cdd67e88f49619ee</sys_id>
+            <position>29</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1a7c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>non_medicare_network</element>
-            <position>29</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d36555acdb827b00cdd67e88f49619ee</sys_id>
+            <position>30</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9a7c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>non_medicare_status</element>
-            <position>30</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>576555acdb827b00cdd67e88f49619ee</sys_id>
+            <position>31</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>1e7c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>31</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>d76555acdb827b00cdd67e88f49619ee</sys_id>
+            <position>32</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>9e7c1d6bdb5ef7006655b2a2ba961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>medicare_agreement_type</element>
-            <position>32</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5b6555acdb827b00cdd67e88f49619ee</sys_id>
+            <position>33</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>127c1d6bdb5ef7006655b2a2ba961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>medicare_network_type</element>
-            <position>33</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>db6555acdb827b00cdd67e88f49619ee</sys_id>
+            <position>34</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>927c1d6bdb5ef7006655b2a2ba961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>medicare_status</element>
-            <position>34</position>
-            <sys_created_by>_bvanna</sys_created_by>
-            <sys_created_on>2019-06-11 20:23:05</sys_created_on>
-            <sys_id>5f6555acdb827b00cdd67e88f49619ee</sys_id>
+            <position>35</position>
+            <sys_created_by>_rjatot</sys_created_by>
+            <sys_created_on>2019-07-03 14:51:20</sys_created_on>
+            <sys_id>167c1d6bdb5ef7006655b2a2ba961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_contract_requests" sys_domain="global" view="Default view">506af2c81b37eb00a27f437ead4bcb2f</sys_ui_section>
-            <sys_updated_by>_bvanna</sys_updated_by>
-            <sys_updated_on>2019-06-11 20:23:05</sys_updated_on>
+            <sys_updated_by>_rjatot</sys_updated_by>
+            <sys_updated_on>2019-07-03 14:51:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

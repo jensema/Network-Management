@@ -84,6 +84,20 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>6</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-06-26 20:11:34</sys_created_on>
+            <sys_id>05a2a259db9e7300cdd67e88f49619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_network_products" sys_domain="global" view="Default view">e6b3e5701bff2f00a27f437ead4bcb5a</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-06-26 20:11:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

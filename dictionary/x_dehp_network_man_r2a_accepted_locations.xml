@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="R2A Accepted Locations" max_length="40" name="x_dehp_network_man_r2a_accepted_locations" type="collection">
+        <element label="Name" max_length="32" name="name" reference="x_dehp_network_man_r2a_locations" reference_qual="javascript:'parent='+current.sys_id;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Network" max_length="32" name="network" reference="x_dehp_network_man_network_products" reference_qual="type=network^EQ" reference_qual_condition="type=network^EQ" type="reference"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_dehp_network_man_r2a" type="reference"/>
+        <element choice="1" label="PCP Site" max_length="40" name="pcp_site" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="network"/>
+        </index>
+    </element>
+</database>
