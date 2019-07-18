@@ -16,7 +16,7 @@
         </element>
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element label="State / Province" max_length="40" name="state" type="string"/>
-        <element label="Street" max_length="2000" name="street" type="string"/>
+        <element label="Street" max_length="2000" name="street" type="multi_two_lines"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element choice="3" choice_field="time_zone" choice_table="sys_user" label="time Zone" max_length="40" name="time_zone" type="string">
             <choice/>
