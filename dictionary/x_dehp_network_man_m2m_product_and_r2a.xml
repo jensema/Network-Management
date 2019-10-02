@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Network Man M2m Product And R2a" max_length="40" name="x_dehp_network_man_m2m_product_and_r2a" type="collection">
+        <element label="Network and Products" max_length="32" name="network_and_products" reference="x_dehp_network_man_network_products" type="reference"/>
+        <element label="Request to Add" max_length="32" name="request_to_add" reference="x_dehp_network_man_r2a" type="reference"/>
+        <index name="index">
+            <element name="request_to_add"/>
+        </index>
+        <index name="index2">
+            <element name="network_and_products"/>
+        </index>
+    </element>
+</database>

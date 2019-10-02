@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="20" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="task" label="Contract Requests" max_length="40" name="x_dehp_network_man_contract_requests" sizeclass="20" type="collection">
         <element label="Additional restrictions" max_length="1000" name="additional_restrictions" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Addition or Deletion to practice restrictions" max_length="40" name="addition_or_deletion_to_practice_restrictions" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Amendment Other" max_length="40" name="admendment_other" type="boolean"/>
@@ -69,11 +69,11 @@
             </choice>
         </element>
         <element label="Medicare Certification #" max_length="200" name="medicare_certification" type="string"/>
-        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" label="Medicare Network Type" max_length="40" name="medicare_network_type" type="choice">
+        <element attributes="edge_encryption_enabled=true,no_copy" choice="1" choice_field="type" label="Medicare Network Type" max_length="40" name="medicare_network_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Dean Network" sequence="10" value="Dean Network"/>
                 <element inactive_on_update="false" label="Prevea360 Network" sequence="20" value="Prevea360 Network"/>
-                <element inactive_on_update="false" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
+                <element inactive="true" inactive_on_update="true" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
             </choice>
         </element>
         <element attributes="no_copy=true,edge_encryption_enabled=true" choice="1" label="Medicare Status" max_length="200" name="medicare_status" type="string">
@@ -110,7 +110,8 @@
             <choice>
                 <element inactive_on_update="false" label="Dean Network" sequence="10" value="Dean Network"/>
                 <element inactive_on_update="false" label="Prevea360 Network" sequence="20" value="Prevea360 Network"/>
-                <element inactive_on_update="false" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
+                <element inactive="true" inactive_on_update="true" label="Both Dean and Prevea360 Networks" sequence="30" value="Both Dean and Prevea360 Networks"/>
+                <element inactive_on_update="false" label="WellFirst Health" sequence="40" value="WellFirst Health"/>
             </choice>
         </element>
         <element attributes="no_copy=true,edge_encryption_enabled=true" choice="1" label="Non-Medicare Status" max_length="200" name="non_medicare_status" type="string">

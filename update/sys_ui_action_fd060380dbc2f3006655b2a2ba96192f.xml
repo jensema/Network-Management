@@ -5,7 +5,7 @@
         <client>true</client>
         <client_script_v2/>
         <comments/>
-        <condition>!current.isNewRecord() </condition>
+        <condition>!current.isNewRecord() &amp;&amp; current.sys_class_name=='x_dehp_network_man_contract_requests'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -61,7 +61,7 @@ function yesPrompt() {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>fd060380dbc2f3006655b2a2ba96192f</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Copy Contract Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
@@ -70,7 +70,7 @@ function yesPrompt() {
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sys_ui_action_fd060380dbc2f3006655b2a2ba96192f</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-07-08 18:43:57</sys_updated_on>
+        <sys_updated_on>2019-08-05 18:02:14</sys_updated_on>
         <table>x_dehp_network_man_contract_requests</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

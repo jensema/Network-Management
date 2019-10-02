@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="75ea9a691b233b409d5e0fa2cd4bcb73" sys_domain="global" table="x_dehp_network_man_r2a_practitioners" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:44</sys_created_on>
+            <sys_id>c2eada691b233b409d5e0fa2cd4bcbd8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <text/>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_name</element>
+            <position>0</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>ceeada691b233b409d5e0fa2cd4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>46eada691b233b409d5e0fa2cd4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mtv_id</element>
+            <position>2</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>c6eada691b233b409d5e0fa2cd4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credentialed</element>
+            <position>3</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>4aeada691b233b409d5e0fa2cd4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>caeada691b233b409d5e0fa2cd4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>4eeada691b233b409d5e0fa2cd4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>doctor_being_replaced</element>
+            <position>6</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>ceeada691b233b409d5e0fa2cd4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>42eada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>doctor_replaced_by</element>
+            <position>8</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>c2eada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>46eada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>c2eada691b233b409d5e0fa2cd4bcbd8</element>
+            <position>10</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>c6eada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>4aeada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>idn_entity</element>
+            <position>12</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>caeada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>4eeada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>ceeada691b233b409d5e0fa2cd4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>42eada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ssm_health_choice</element>
+            <position>16</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>c2eada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>46eada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ssm_termination_date</element>
+            <position>18</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>c6eada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>4aeada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>20</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>caeada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prevea_hshs_choice</element>
+            <position>21</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>4eeada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>22</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>ceeada691b233b409d5e0fa2cd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prevea360_hshs_termination_date</element>
+            <position>23</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>42eada691b233b409d5e0fa2cd4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>24</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>c2eada691b233b409d5e0fa2cd4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>25</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>46eada691b233b409d5e0fa2cd4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>non_idn_entity</element>
+            <position>26</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>c6eada691b233b409d5e0fa2cd4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>27</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>4aeada691b233b409d5e0fa2cd4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>non_idn_termination_date</element>
+            <position>28</position>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:45</sys_created_on>
+            <sys_id>caeada691b233b409d5e0fa2cd4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dehp_network_man_r2a_practitioners" sys_domain="global" view="Default view">75ea9a691b233b409d5e0fa2cd4bcb73</sys_ui_section>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_dehp_network_man_r2a_practitioners</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:34:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>75ea9a691b233b409d5e0fa2cd4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dehp_network_man_r2a_practitioners</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_ui_section_75ea9a691b233b409d5e0fa2cd4bcb73</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:34:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

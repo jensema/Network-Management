@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_dehp_network_man_r2a" relationship="" sys_domain="global" table="x_dehp_network_man_r2a_practitioners" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>entity_name</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>8aeedead1b233b409d5e0fa2cd4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mtv_id</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>0eeedead1b233b409d5e0fa2cd4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>credentialed</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>8eeedead1b233b409d5e0fa2cd4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ssm_termination_date</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>02eedead1b233b409d5e0fa2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>prevea360_hshs_termination_date</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>82eedead1b233b409d5e0fa2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>non_idn_termination_date</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>06eedead1b233b409d5e0fa2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>doctor_replaced_by</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>86eedead1b233b409d5e0fa2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>doctor_being_replaced</element>
+            <list_id display_value="x_dehp_network_man_r2a_practitioners" element="NULL" name="x_dehp_network_man_r2a_practitioners" parent="x_dehp_network_man_r2a" relationship="NULL" sys_domain="global" view="Default view">42eedead1b233b409d5e0fa2cd4bcbbe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_id>0aeedead1b233b409d5e0fa2cd4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_dehp_network_man_r2a_practitioners</name>
+            <parent>x_dehp_network_man_r2a</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-28 17:52:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>42eedead1b233b409d5e0fa2cd4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dehp_network_man_r2a_practitioners</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_ui_list_x_dehp_network_man_r2a_practitioners_x_dehp_network_man_r2a_null</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-28 17:52:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

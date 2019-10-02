@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Network Man M2m Entities To R2a" max_length="40" name="x_dehp_network_man_m2m_entities_to_r2a" type="collection">
+        <element label="R2A Entities" max_length="32" name="r2a_entities" reference="x_dehp_network_man_r2a_entities" type="reference"/>
+        <element label="Request to Add" max_length="32" name="request_to_add" reference="x_dehp_network_man_r2a" type="reference"/>
+        <index name="index">
+            <element name="request_to_add"/>
+        </index>
+        <index name="index2">
+            <element name="r2a_entities"/>
+        </index>
+    </element>
+</database>

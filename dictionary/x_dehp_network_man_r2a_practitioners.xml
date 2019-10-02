@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_dehp_network_man_r2a_entities" label="Practitioners" max_length="40" name="x_dehp_network_man_r2a_practitioners" type="collection">
+        <element label="Credentialed?" max_length="40" name="credentialed" type="boolean"/>
+        <element label="Doctor which is being replaced" max_length="32" name="doctor_being_replaced" reference="x_dehp_network_man_r2a_practitioners" reference_qual="javascript:'entity_name!='+current.entity_name;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Doctor Replaced By" max_length="32" name="doctor_replaced_by" reference="x_dehp_network_man_r2a_practitioners" reference_qual="javascript:'entity_name!='+current.entity_name;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_dehp_network_man_r2a" type="reference"/>
+        <element active="false" label="Specialties" max_length="4000" name="specialties" reference="x_dehp_network_man_r2a_specialties" type="glide_list"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="doctor_replaced_by"/>
+        </index>
+        <index name="index3">
+            <element name="doctor_being_replaced"/>
+        </index>
+    </element>
+</database>

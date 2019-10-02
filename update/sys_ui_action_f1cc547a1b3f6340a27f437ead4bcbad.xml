@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>request_approval</action_name>
+        <action_name>prs_request_approval</action_name>
         <active>true</active>
         <client>false</client>
         <client_script_v2/>
@@ -26,12 +26,12 @@
         <name>Request Approval</name>
         <onclick>request_approval()</onclick>
         <order>-300</order>
-        <script><![CDATA[function request_approval() {
+        <script><![CDATA[function prs_request_approval() {
 	if (checkMandatory() == false) return false;
 		else {
 		//g_form.setValue('state', 1015);
 		//g_form.setValue('approval','requested');
-		gsftSubmit(null, g_form.getFormElement(), 'request_approval');
+		gsftSubmit(null, g_form.getFormElement(), 'prs_request_approval');
 	}
 }
 function checkMandatory() {
@@ -77,7 +77,7 @@ function checkMandatory() {
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f1cc547a1b3f6340a27f437ead4bcbad</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
@@ -85,8 +85,8 @@ function checkMandatory() {
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
         <sys_update_name>sys_ui_action_f1cc547a1b3f6340a27f437ead4bcbad</sys_update_name>
-        <sys_updated_by>_ejense</sys_updated_by>
-        <sys_updated_on>2019-03-01 18:16:36</sys_updated_on>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-08-05 19:00:24</sys_updated_on>
         <table>x_dehp_network_man_contract_requests</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

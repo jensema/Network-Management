@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>prevea360_hshs_termination_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-07-24 14:57:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c347e5d2db367340cdd67e88f49619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>prevea360_hshs_termination_date</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c347e5d2db367340cdd67e88f49619e0</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:57:43</sys_updated_on>
+        <table>x_dehp_network_man_r2a_entities</table>
+        <ui_policy display_value="Show p360 Term Date">714725d2db367340cdd67e88f49619c2</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Entities" max_length="40" name="x_dehp_network_man_r2a_entities" type="collection">
+        <element display="true" label="Practitioner Name" max_length="200" name="entity_name" text_index="true" type="string"/>
+        <element choice="1" label="IDN (Integrated Delivery Network) Entity" max_length="40" name="idn_entity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="MTV ID#" max_length="40" name="mtv_id" text_index="true" type="string" unique="true"/>
+        <element choice="1" label="Non-IDN (Integrated Delivery Network) Entity" max_length="40" name="non_idn_entity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Non-IDN Termination Date" max_length="40" name="non_idn_termination_date" type="glide_date"/>
+        <element label="Prevea360/HSHS Termination Date" max_length="40" name="prevea360_hshs_termination_date" type="glide_date"/>
+        <element label="Prevea/HSHS" max_length="40" name="prevea_hshs_choice" type="boolean"/>
+        <element label="SSM Health" max_length="40" name="ssm_health_choice" type="boolean"/>
+        <element label="SSM Termination Date" max_length="40" name="ssm_termination_date" type="glide_date"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

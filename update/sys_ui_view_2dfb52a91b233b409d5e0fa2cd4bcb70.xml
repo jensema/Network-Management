@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>network</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-08-28 17:39:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2dfb52a91b233b409d5e0fa2cd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_ui_view_2dfb52a91b233b409d5e0fa2cd4bcb70</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-08-28 17:39:21</sys_updated_on>
+        <title>Network</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

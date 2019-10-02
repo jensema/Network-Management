@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_dehp_network_man_r2a" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decision Notification</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>4</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-08-05 16:20:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>641d6786db87b3006655b2a2ba9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-08-05 16:20:17</sys_updated_on>
+            <value>1120</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>10</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-25 13:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6741aaeedbb2b340cdd67e88f4961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:50:31</sys_updated_on>
+            <value>1100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Decision</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>20</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-25 13:51:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cdc1a6eedbb2b340cdd67e88f4961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:51:32</sys_updated_on>
+            <value>1110</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>30</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-25 13:51:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>63c16eeedbb2b340cdd67e88f496195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:51:43</sys_updated_on>
+            <value>1140</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>40</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-25 13:51:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6ed16aeedbb2b340cdd67e88f496190f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:52:00</sys_updated_on>
+            <value>1150</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_dehp_network_man_r2a</name>
+            <sequence>50</sequence>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-25 13:52:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>79e1e6eedbb2b340cdd67e88f4961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:52:09</sys_updated_on>
+            <value>1160</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_dehp_network_man_r2a</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-07-25 13:50:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>828162eedbb2b340cdd67e88f49619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+            <sys_update_name>sys_choice_x_dehp_network_man_r2a_state</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-07-25 13:50:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

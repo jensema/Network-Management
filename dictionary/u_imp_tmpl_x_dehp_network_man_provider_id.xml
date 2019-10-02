@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl X Dehp Network Man Provider ID" max_length="40" name="u_imp_tmpl_x_dehp_network_man_provider_id" type="collection">
-        <element attributes="import_attribute_name=Provider ID,edge_encryption_enabled=true" label="Provider ID" max_length="20" name="u_provider_id" type="string"/>
-    </element>
-</database>

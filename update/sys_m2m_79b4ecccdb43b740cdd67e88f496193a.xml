@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_dehp_network_man_r2a</from_table>
+        <m2m_from_field>request_to_add</m2m_from_field>
+        <m2m_from_label>R2A Entities</m2m_from_label>
+        <m2m_table>x_dehp_network_man_m2m_entities_to_r2a</m2m_table>
+        <m2m_to_field>r2a_entities</m2m_to_field>
+        <m2m_to_label>Request to Adds</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-07-29 20:36:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>79b4ecccdb43b740cdd67e88f496193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dehp_network_man_m2m_entities_to_r2a</sys_name>
+        <sys_package display_value="Network Management" source="x_dehp_network_man">8df10f341b23e300a27f437ead4bcbd4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Network Management">8df10f341b23e300a27f437ead4bcbd4</sys_scope>
+        <sys_update_name>sys_m2m_79b4ecccdb43b740cdd67e88f496193a</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-07-29 20:36:51</sys_updated_on>
+        <to_table>x_dehp_network_man_r2a_entities</to_table>
+    </sys_m2m>
+</record_update>

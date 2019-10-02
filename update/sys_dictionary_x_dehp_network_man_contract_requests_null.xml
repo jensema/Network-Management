@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>hasLabels=true</attributes>
         <audit>true</audit>
         <calculation><![CDATA[answer = "";]]></calculation>
         <choice/>
